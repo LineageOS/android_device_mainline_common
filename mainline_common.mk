@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
 # Go
 ifeq ($(PRODUCT_IS_GO),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults.mk)
+$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackageGo.mk)
 endif
 
 # Init
