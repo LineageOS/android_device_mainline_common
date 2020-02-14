@@ -38,6 +38,11 @@ BOARD_EROFS_BLOCKSIZE := 16384
 BOARD_F2FS_BLOCKSIZE := 16384
 endif
 
+# Memory allocator
+ifeq ($(PRODUCT_IS_GO),true)
+MALLOC_SVELTE := true
+endif
+
 # Properties
 TARGET_SYSTEM_EXT_PROP += $(MAINLINE_COMMON_PATH)/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(MAINLINE_COMMON_PATH)/properties/vendor.prop
