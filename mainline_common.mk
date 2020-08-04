@@ -51,6 +51,10 @@ $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackageGo.mk)
 ## Enable DM file preopting to reduce first boot time
 PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+ifeq ($(LINEAGE_BUILD),)
+PRODUCT_PACKAGES += \
+    Launcher3QuickStepGo
+endif
 endif
 
 # Init

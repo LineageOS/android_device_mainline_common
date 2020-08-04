@@ -35,4 +35,11 @@
 
     <!-- Configure 16-bit task snapshots -->
     <bool name="config_use16BitTaskSnapshotPixelFormat">true</bool>
+
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- True if the device requires AppWidgetService even if it does not have
+         the PackageManager.FEATURE_APP_WIDGETS feature -->
+    <bool name="config_enableAppWidgetService">true</bool>
 </resources>
