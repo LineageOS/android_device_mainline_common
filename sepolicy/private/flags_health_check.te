@@ -1,2 +1,3 @@
 dontaudit flags_health_check file_type:dir *;
 dontaudit flags_health_check file_type:file *;
+dontaudit flags_health_check property_type:file *;
