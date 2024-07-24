@@ -1,3 +1,6 @@
+# DHCP
+vendor.recovery.ethernet.dhcp.iface		u:object_r:vendor_recovery_ethernet_dhcp_prop:s0 exact string
+
 # Input (ts_vkeys)
 vendor.vendor_ts_vkeys.		u:object_r:vendor_ts_vkeys_prop:s0
 
