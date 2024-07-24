@@ -1,3 +1,6 @@
+# DHCP
+set_prop(vendor_init, vendor_recovery_ethernet_dhcp_prop)
+
 # Misc
 allow vendor_init rootfs:dir read;
 

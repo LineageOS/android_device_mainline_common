@@ -5,6 +5,11 @@ allow init super_block_device:blk_file relabelto;
 # DeviceTree
 r_dir_file(init, vendor_sysfs_dt_model)
 
+# DHCP
+recovery_only(`
+    set_prop(init, vendor_recovery_ethernet_dhcp_prop)
+')
+
 # DMI
 r_dir_file(init, vendor_sysfs_dmi_id)
 

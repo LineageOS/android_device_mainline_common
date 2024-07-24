@@ -181,6 +181,13 @@
 |-------|-----------|-------------|
 | false | suspend_blocker | Disables suspend |
 
+## Recovery mode
+
+### TARGET_ENABLE_RECOVERY_ETHERNET_DHCP
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | recovery-ethernet-dhcp | Configure IPv4 address on ethernet interface via DHCP in recovery mode. Defaults to `eth0` interface, can be changed via property `vendor.recovery.ethernet.dhcp.iface`. |
+
 ## Security
 
 ### TARGET_GATEKEEPER_HAL
