@@ -1,0 +1,2 @@
+dontaudit flags_health_check file_type:dir *;
+dontaudit flags_health_check file_type:file *;
