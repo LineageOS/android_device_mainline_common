@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_hardware_mainline",
+    "target_path": "hardware/mainline"
+  }
+]
