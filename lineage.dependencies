@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_external_linux-firmware-mainline",
+    "target_path": "external/linux-firmware-mainline"
+  },
+  {
+    "repository": "android_hardware_mainline",
+    "target_path": "hardware/mainline"
+  }
+]
