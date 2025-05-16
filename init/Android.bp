@@ -20,6 +20,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "ueventd.mainline.rc",
     src: "ueventd.rc",
-    filename: "ueventd.rc",
+    filename_from_src: true,
     vendor: true,
 }
