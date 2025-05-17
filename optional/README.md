@@ -11,6 +11,7 @@
 | Value | Directory | Description |
 |-------|-----------|-------------|
 | default-aidl | audio-hal_default-aidl | Usable on targets without any sound card or with a simple sound card |
+| tinyhal | audio-hal_tinyhal | For targets with complicated sound card. Requires per-board configuration. |
 
 ## Bluetooth
 
