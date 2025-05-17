@@ -1,0 +1,10 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+vintf_fragment {
+    name: "manifest_mainline_common_audio-hal_tinyhal.xml",
+    src: "manifest_mainline_common_audio-hal_tinyhal.xml",
+    vendor: true,
+}
