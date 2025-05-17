@@ -16,7 +16,20 @@
 ### TARGET_AUDIO_POLICY
 | Value | Directory | Description |
 |-------|-----------|-------------|
+| common-handheld-7.0 | audio-policy_common-handheld-7.0 | For common handheld devices. Requires the target to provide `primary_audio_policy_configuration.xml`. |
 | goldfish | audio-policy_goldfish | Used with `TARGET_AUDIO_HAL=default-aidl` |
+
+#### TARGET_PROVIDES_AUDIO_POLICY_VOLUMES
+| Value | Description |
+|-------|-------------|
+| false | Default `audio_policy_volumes.xml` will be copied and default AOSP values will be used |
+| true | The downstream device tree must provide `/vendor/etc/audio_policy_volumes.xml` |
+
+#### TARGET_PROVIDES_BLUETOOTH_AUDIO_POLICY
+| Value | Description |
+|-------|-------------|
+| false | Default `bluetooth_audio_policy_configuration_7_0.xml` will be copied to use the software Bluetooth audio AIDL |
+| true | Default `/vendor/etc/bluetooth_audio_policy_configuration_7_0.xml` will not be copied to allow the usage of Bluetooth audio hardware offload |
 
 ## Bluetooth
 
