@@ -30,6 +30,9 @@ endif
 # Audio
 TARGET_AUDIO_HAL ?= default-aidl
 
+# Bluetooth
+TARGET_BLUETOOTH_HAL ?= default-aidl
+
 # Graphics
 TARGET_GRAPHICS ?= mesa
 
