@@ -1,0 +1,11 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "usbv2_audio_policy_configuration.xml",
+    src: "usbv2_audio_policy_configuration.xml",
+    filename_from_src: true,
+    vendor: true,
+}
