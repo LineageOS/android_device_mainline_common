@@ -37,7 +37,6 @@ BOARD_F2FS_BLOCKSIZE := 16384
 endif
 
 # Properties
-TARGET_PRODUCT_PROP += $(MAINLINE_COMMON_PATH)/properties/product.prop
 TARGET_SYSTEM_EXT_PROP += $(MAINLINE_COMMON_PATH)/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(MAINLINE_COMMON_PATH)/properties/vendor.prop
 
