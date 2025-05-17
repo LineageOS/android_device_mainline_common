@@ -30,6 +30,10 @@ endif
 # Audio
 TARGET_AUDIO_HAL ?= default-aidl
 
+ifeq ($(TARGET_AUDIO_HAL),default-aidl)
+TARGET_AUDIO_POLICY ?= goldfish
+endif
+
 # Bluetooth
 TARGET_BLUETOOTH_HAL ?= default-aidl
 
