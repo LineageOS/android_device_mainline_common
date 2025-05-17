@@ -12,6 +12,13 @@
 |-------|-----------|-------------|
 | default-aidl | audio-hal_default-aidl | Usable on targets without any sound card or with a simple sound card |
 
+## Bluetooth
+
+### TARGET_BLUETOOTH_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| default-aidl | bluetooth-hal_default-aidl | HCI-based Bluetooth AIDL HAL |
+
 ## Graphics
 
 ### TARGET_GRAPHICS
