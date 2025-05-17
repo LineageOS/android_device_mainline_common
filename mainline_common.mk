@@ -8,6 +8,10 @@ MAINLINE_COMMON_PATH := device/mainline/common
 # Include the fragments
 include $(MAINLINE_COMMON_PATH)/optional/*/product.mk
 
+# Bluetooth Audio
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-impl
+
 # DLKM Loader
 PRODUCT_PACKAGES += \
     dlkm_loader
