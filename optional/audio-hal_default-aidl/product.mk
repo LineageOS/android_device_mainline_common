@@ -11,4 +11,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     hardware/interfaces/audio/aidl/default/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_config.xml
 
+TARGET_AUDIO_HAL_TYPE := aidl
+
 endif # TARGET_AUDIO_HAL

@@ -8,6 +8,15 @@ MAINLINE_COMMON_PATH := device/mainline/common
 # Include the fragments
 include $(MAINLINE_COMMON_PATH)/optional/*/product.mk
 
+# Audio
+ifeq ($(TARGET_AUDIO_HAL_TYPE),hidl)
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-impl \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usbv2.default
+endif
+
 # DLKM Loader
 PRODUCT_PACKAGES += \
     dlkm_loader
