@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8eb5e14_12cc4df9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:24:22Z",
+      "side": 1,
+      "message": "Looks good, see nitpick",
+      "revId": "1a22395636fdf1d5699811a38bfc8e8cad626a74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bc273aa_931591af",
+        "filename": "optional/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:24:22Z",
+      "side": 1,
+      "message": "For AIDL-only components, should we start removing `-aidl` suffix?",
+      "revId": "1a22395636fdf1d5699811a38bfc8e8cad626a74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
