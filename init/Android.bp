@@ -23,3 +23,10 @@ prebuilt_etc {
     filename_from_src: true,
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "zram.rc",
+    src: "zram.rc",
+    sub_dir: "init",
+    vendor: true,
+}
