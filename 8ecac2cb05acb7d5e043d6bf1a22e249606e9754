@@ -34,6 +34,24 @@
       "parentUuid": "146033e3_d4422df5",
       "revId": "8ecac2cb05acb7d5e043d6bf1a22e249606e9754",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "866de237_3383304e",
+        "filename": "optional/options.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-05-18T22:15:36Z",
+      "side": 1,
+      "message": "I don\u0027t quite understand you, but my intention is, both of them should be absent/present together, and `TARGET_IR_HAL` could be supported by something that\u0027s outside of the repo",
+      "parentUuid": "3076162e_004c2a20",
+      "revId": "8ecac2cb05acb7d5e043d6bf1a22e249606e9754",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
