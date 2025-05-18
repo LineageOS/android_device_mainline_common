@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cfb2b8b_54318cb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:22:25Z",
+      "side": 1,
+      "message": "Yet another kernel-specific thing out of common, let\u0027s go",
+      "revId": "b1073f0fb2bb114b126ae68f9ce47d9b593bcda9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
