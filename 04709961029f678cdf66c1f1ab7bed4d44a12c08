@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1187e51c_425ec141",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-05-18T22:06:20Z",
+      "side": 1,
+      "message": "actually those depends on what\u0027s included in audio policy...",
+      "parentUuid": "2aecce58_d12f78eb",
+      "revId": "04709961029f678cdf66c1f1ab7bed4d44a12c08",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a47d7f7f_26a60386",
         "filename": "mainline_common.mk",
         "patchSetId": 3
@@ -31,6 +49,24 @@
       "writtenOn": "2025-05-18T21:29:47Z",
       "side": 1,
       "message": "This is the AIDL impl",
+      "revId": "04709961029f678cdf66c1f1ab7bed4d44a12c08",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fed7b46_71f44c49",
+        "filename": "mainline_common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-05-18T22:06:20Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_hardware_interfaces/blob/lineage-22.2/audio/common/all-versions/default/service/service.cpp#L138",
+      "parentUuid": "a47d7f7f_26a60386",
       "revId": "04709961029f678cdf66c1f1ab7bed4d44a12c08",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
