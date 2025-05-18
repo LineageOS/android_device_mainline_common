@@ -17,6 +17,13 @@ PRODUCT_PACKAGES += \
     audio.usbv2.default
 endif
 
+# Audio - utilities
+PRODUCT_PACKAGES_DEBUG += \
+    tinycap2 \
+    tinymix2 \
+    tinypcminfo2 \
+    tinyplay2
+
 # DLKM Loader
 PRODUCT_PACKAGES += \
     dlkm_loader
