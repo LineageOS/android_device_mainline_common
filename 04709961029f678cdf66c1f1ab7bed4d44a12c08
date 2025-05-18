@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2aecce58_d12f78eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:29:47Z",
+      "side": 1,
+      "message": "I feel like this is wrong, this builds software based non-offloaded (bluetooth|usb|remote submix) audio HALs, I feel like those should be built apart of the audio HAL optional component (OR let us select (bluetooth|usb|remote submix) audio HALs + select defaults based on selected audio HAL)",
+      "revId": "04709961029f678cdf66c1f1ab7bed4d44a12c08",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a47d7f7f_26a60386",
+        "filename": "mainline_common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:29:47Z",
+      "side": 1,
+      "message": "This is the AIDL impl",
+      "revId": "04709961029f678cdf66c1f1ab7bed4d44a12c08",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
