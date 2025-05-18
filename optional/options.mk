@@ -62,6 +62,14 @@ else
 TARGET_HEALTH_HAL ?= default-aidl
 endif
 
+# IR
+ifeq ($(TARGET_HAS_IR),true)
+ifneq ($(TARGET_INITIAL_BRINGUP),true)
+PRODUCT_PACKAGES += android.hardware.consumerir.prebuilt.xml
+TARGET_IR_HAL ?= lineage
+endif
+endif
+
 # Light
 TARGET_LIGHT_HAL ?= lineage
 
