@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43bf0927_f794ac5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:31:19Z",
+      "side": 1,
+      "message": "Again, falls under the \"force software only audio HALs\" issue - let us also provide all the other audio policy configuration fragments!",
+      "revId": "ce0be1d47aaca5d722c8d7b5092f2cd3605a5cf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
