@@ -1,3 +1,6 @@
+# Block devices
+/dev/block/zram0		u:object_r:swap_block_device:s0
+
 # Executables
 /(vendor|system/vendor)/bin/hw/android\.hardware\.composer\.hwc3-service\.drm		u:object_r:hal_graphics_composer_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb\.gadget-service\.mainline		u:object_r:hal_usb_gadget_default_exec:s0
