@@ -91,3 +91,8 @@ TARGET_USB_GADGET_HAL ?= mainline
 TARGET_USB_HAL ?= lineage-basic
 TARGET_USB_INIT_SCRIPT ?= mainline
 endif
+
+# Vibrator
+ifneq ($(TARGET_HAS_VIBRATOR),false)
+TARGET_VIBRATOR_HAL ?= glodroid
+endif
