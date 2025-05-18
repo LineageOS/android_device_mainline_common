@@ -22,6 +22,30 @@
       },
       "revId": "a74ba67068a16e01bfb25cf0c44375f95b4e3adb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "940fd8b8_c166d901",
+        "filename": "optional/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-05-18T22:01:29Z",
+      "side": 1,
+      "message": "AC97 is one of the standard ALSA sound cards too, but it works fine with default-aidl...",
+      "parentUuid": "fa7a7179_135e04ea",
+      "range": {
+        "startLine": 14,
+        "startChar": 49,
+        "endLine": 14,
+        "endChar": 60
+      },
+      "revId": "a74ba67068a16e01bfb25cf0c44375f95b4e3adb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
