@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81626697_207ad8ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:21:34Z",
+      "side": 1,
+      "message": "...are those really useful?",
+      "revId": "81fcd693f29e942965a8bd7f85c0efe7ca0753f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64d08b7d_a24616b4",
+        "filename": "mainline_common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:21:34Z",
+      "side": 1,
+      "message": "`# Audio - utilities`",
+      "revId": "81fcd693f29e942965a8bd7f85c0efe7ca0753f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
