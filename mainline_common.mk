@@ -81,6 +81,13 @@ PRODUCT_ENABLE_UFFD_GC := true
 PRODUCT_PACKAGES += \
     android.hardware.usb.host.prebuilt.xml
 
+# Utilities
+PRODUCT_PACKAGES_DEBUG += \
+    tinycap2 \
+    tinymix2 \
+    tinypcminfo2 \
+    tinyplay2
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     hostapd \
