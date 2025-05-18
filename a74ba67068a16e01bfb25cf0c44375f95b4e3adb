@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa7a7179_135e04ea",
+        "filename": "optional/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T21:26:30Z",
+      "side": 1,
+      "message": "`standard ALSA sound cards`?",
+      "range": {
+        "startLine": 14,
+        "startChar": 49,
+        "endLine": 14,
+        "endChar": 60
+      },
+      "revId": "a74ba67068a16e01bfb25cf0c44375f95b4e3adb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
