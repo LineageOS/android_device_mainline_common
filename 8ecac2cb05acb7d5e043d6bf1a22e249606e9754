@@ -70,6 +70,24 @@
       "parentUuid": "866de237_3383304e",
       "revId": "8ecac2cb05acb7d5e043d6bf1a22e249606e9754",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d865df9_2d86a803",
+        "filename": "optional/options.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-05-18T22:31:16Z",
+      "side": 1,
+      "message": "so, in `TARGET_INITIAL_BRINGUP` case, the permission exists but there\u0027s no HAL?",
+      "parentUuid": "2368f520_88c3827a",
+      "revId": "8ecac2cb05acb7d5e043d6bf1a22e249606e9754",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
