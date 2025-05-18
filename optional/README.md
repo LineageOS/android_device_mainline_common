@@ -124,3 +124,10 @@
 | Value | Directory | Description |
 |-------|-----------|-------------|
 | mainline | usb-init-script_mainline | |
+
+## Vibrator
+
+### TARGET_VIBRATOR_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| glodroid | vibrator-hal_glodroid | Supports generic FF class vibrator devices |
