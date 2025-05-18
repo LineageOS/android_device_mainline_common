@@ -52,6 +52,24 @@
       "parentUuid": "3076162e_004c2a20",
       "revId": "8ecac2cb05acb7d5e043d6bf1a22e249606e9754",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2368f520_88c3827a",
+        "filename": "optional/options.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-18T22:28:45Z",
+      "side": 1,
+      "message": "```\nif TARGET_HAS_IR\n    copy xml permission (always)\nendif\n```",
+      "parentUuid": "866de237_3383304e",
+      "revId": "8ecac2cb05acb7d5e043d6bf1a22e249606e9754",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
