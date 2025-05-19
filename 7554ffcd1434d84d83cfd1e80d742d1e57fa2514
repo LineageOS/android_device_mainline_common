@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca7682a7_1ad7a7d7",
+        "filename": "optional/options.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-19T20:12:19Z",
+      "side": 1,
+      "message": "I\u0027d argue one can ship this HAL since day 0? Looks like it doesn\u0027t have fatal error handling so it won\u0027t kill booting",
+      "revId": "7554ffcd1434d84d83cfd1e80d742d1e57fa2514",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
