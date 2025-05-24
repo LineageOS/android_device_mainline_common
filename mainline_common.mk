@@ -62,9 +62,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.recovery.mainline.rc
 
-PRODUCT_COPY_FILES += \
-    $(MAINLINE_COMMON_PATH)/init/ueventd.rc:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/etc/ueventd.rc
-
 ifeq ($(TARGET_HAS_BATTERY),false)
 PRODUCT_VENDOR_PROPERTIES += \
     ro.recovery.batteryless=true
