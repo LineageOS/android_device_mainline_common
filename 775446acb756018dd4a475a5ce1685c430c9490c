@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d12e08b8_54ed6136",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-24T13:41:24Z",
+      "side": 1,
+      "message": "Note: Me nor Luca agree on the dir structure given non-RRO overlays are scheduled for deprecation, actual AOD overlay is fine\n\nbtw you nuked the formatting I did on `AndroidManifest.xml`",
+      "revId": "775446acb756018dd4a475a5ce1685c430c9490c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
