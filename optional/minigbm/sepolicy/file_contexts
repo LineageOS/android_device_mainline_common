@@ -5,4 +5,5 @@
 # Same Process HAL
 /vendor/lib(64)?/hw/android\.hardware\.graphics\.mapper@4\.0-impl\.minigbm(|_[a-z]+)\.so	u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/gralloc\.minigbm(|_[a-z]+)\.so						u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/mapper\.minigbm(|_[a-z]+)\.so						u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libminigbm_gralloc(|_[a-z]+)\.so						u:object_r:same_process_hal_file:s0
