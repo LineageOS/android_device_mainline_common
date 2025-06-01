@@ -13,7 +13,7 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.recovery.mainline.rc",
     src: "init.recovery.mainline.rc",
-    sub_dir: "init",
+    sub_dir: "init/hw",
     recovery: true,
 }
 
