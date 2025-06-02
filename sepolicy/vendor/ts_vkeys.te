@@ -1,0 +1,13 @@
+type ts_vkeys, domain;
+type ts_vkeys_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(ts_vkeys);
+
+recovery_only(`
+    domain_trans(init, rootfs, ts_vkeys)
+')
+
+allow ts_vkeys input_device:dir r_dir_perms;
+allow ts_vkeys input_device:chr_file rw_file_perms;
+allow ts_vkeys kmsg_device:chr_file rw_file_perms;
+allow ts_vkeys uhid_device:chr_file rw_file_perms;
