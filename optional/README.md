@@ -86,6 +86,13 @@
 | cuttlefish | health-hal_cuttlefish | For devices without battery |
 | default-aidl | health-hal_default-aidl | For devices with a battery accessible through /sys/class/power_supply |
 
+## Input
+
+### TARGET_TOUCHSCREEN_HAS_VIRTUAL_KEYS
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | ts_vkeys | Enables support for touchscreen virtual keys. It reads touchscreen input events, registers a uinput device, and sends EV_KEY events to the uinput device. Requires the target to provide properties to function. |
+
 ## Kernel
 
 ### TARGET_PREBUILT_KERNEL
