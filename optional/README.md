@@ -113,6 +113,12 @@
 |-------|-----------|-------------|
 | lineage | light-hal_lineage | Supports most of generic backlight and LED devices |
 
+#### TARGET_LIGHT_HAL_SCAN_FOR_BACKLIGHT_DEVICES
+| Value | Description |
+|-------|-------------|
+| false | Light HAL will not scan for backlight devices. Backlight may be handled by graphics composer HAL instead. |
+| true | Light HAL will scan for backlight devices. Useful if light HAL is supposed to handle backlight and it could not find the backlight device by default. |
+
 ## Power
 
 ### TARGET_POWER_HAL

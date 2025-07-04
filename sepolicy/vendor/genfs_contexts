@@ -1,3 +1,6 @@
+# Backlight
+genfscon sysfs /class/backlight		u:object_r:vendor_sysfs_backlight:s0
+
 # DeviceTree
 genfscon sysfs /firmware/devicetree/base/model		u:object_r:vendor_sysfs_dt_model:s0
 
