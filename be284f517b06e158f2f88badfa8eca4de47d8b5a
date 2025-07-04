@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "08f8a6ca_5e508b19",
+        "filename": "init/zram.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-07-04T15:29:49Z",
+      "side": 1,
+      "message": "/system/lib/modules is the right place to put zram.ko if it\u0027s a module\n\nor just let it error out if zram is built in",
+      "parentUuid": "8037b0fc_f117889a",
+      "revId": "be284f517b06e158f2f88badfa8eca4de47d8b5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eb15d9da_236d4149",
