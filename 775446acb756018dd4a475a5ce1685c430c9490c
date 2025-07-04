@@ -51,6 +51,24 @@
       "message": "Check previous patch",
       "revId": "775446acb756018dd4a475a5ce1685c430c9490c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca9f923a_9de2a24a",
+        "filename": "overlays/rro/AodDefaultOnOverlay/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-07-04T15:49:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ef3533f_8c3744d0",
+      "revId": "775446acb756018dd4a475a5ce1685c430c9490c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
