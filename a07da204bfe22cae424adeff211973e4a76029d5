@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cf47ea0_f43f82ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-07-12T18:55:53Z",
+      "side": 1,
+      "message": "does not work if it wants to use libhardware gralloc it seems?",
+      "revId": "a07da204bfe22cae424adeff211973e4a76029d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
