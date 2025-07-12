@@ -52,6 +52,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     $(MAINLINE_COMMON_PATH)/sepolicy/private
 
+ifeq ($(wildcard device/lineage/sepolicy),)
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    $(MAINLINE_COMMON_PATH)/sepolicy/vendor/lineage
+endif
+
 # Wi-Fi
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
