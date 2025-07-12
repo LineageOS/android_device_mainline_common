@@ -1,0 +1,2 @@
+allow update_engine_common sd_device:blk_file rw_file_perms;
+allow update_engine_common vd_device:blk_file rw_file_perms;
