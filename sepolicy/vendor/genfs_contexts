@@ -6,3 +6,6 @@ genfscon sysfs /firmware/devicetree/base/model		u:object_r:vendor_sysfs_dt_model
 
 # DMI
 genfscon sysfs /devices/virtual/dmi/id		u:object_r:vendor_sysfs_dmi_id:s0
+
+# Graphics
+genfscon sysfs /devices/platform/vkms		u:object_r:sysfs_gpu:s0

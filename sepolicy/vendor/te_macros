@@ -1,0 +1,10 @@
+#####################################
+# gpu_access(client_domain)
+# Allow client_domain to communicate with the virgl GPU
+define(`gpu_access', `
+allow $1 gpu_device:dir r_dir_perms;
+allow $1 gpu_device:chr_file { getattr ioctl map open read write };
+allow $1 graphics_device:chr_file { getattr };
+allow $1 hal_graphics_allocator_default_tmpfs:file { map read write };
+r_dir_file($1, sysfs_gpu)
+')
