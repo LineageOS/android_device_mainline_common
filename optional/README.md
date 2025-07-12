@@ -38,6 +38,13 @@
 |-------|-----------|-------------|
 | default-aidl | bluetooth-hal_default-aidl | HCI-based Bluetooth AIDL HAL |
 
+## Camera
+
+### TARGET_CAMERA_PROVIDER_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| emulated | camera-provider-hal_emulated | Emulated Camera Provider HAL located at `hardware/google/camera/devices/EmulatedCamera` |
+
 ## Graphics
 
 ### TARGET_GRAPHICS
