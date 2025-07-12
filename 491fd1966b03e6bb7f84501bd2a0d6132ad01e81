@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f807800_ef48bf16",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-12T21:41:01Z",
+      "side": 1,
+      "message": "You wanted to write:\n\n\u003e  \"If those HALs were packed into APEXes, this wouldn\u0027t be needed\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 63
+      },
+      "revId": "491fd1966b03e6bb7f84501bd2a0d6132ad01e81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
