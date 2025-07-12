@@ -6,7 +6,7 @@
 ifeq ($(TARGET_POWER_HAL),perfmgr-lineage)
 
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.lineage-libperfmgr \
+    com.android.hardware.power.lineage_libperfmgr \
     perfmgr-lineage.rc \
     powerhint.json
 

@@ -6,7 +6,7 @@
 ifeq ($(TARGET_LIGHT_HAL),lineage)
 
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.lineage
+    com.android.hardware.light.lineage
 
 $(call soong_config_set_bool,lineagelight,scan_for_backlight_devices,$(TARGET_LIGHT_HAL_SCAN_FOR_BACKLIGHT_DEVICES))
 
