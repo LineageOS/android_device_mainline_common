@@ -1,4 +1,17 @@
 recovery_only(`
+    set_prop(recovery, shell_prop)
+
+    r_dir_file(recovery, vfat)
+
+    allow recovery boottime_prop:property_service set;
     allow recovery gpu_device:chr_file rw_file_perms;
     allow recovery gpu_device:dir search;
+    allow recovery pstorefs:dir search;
+    allow recovery self:capability fsetid;
+    allow recovery sysfs_devices_block:dir r_dir_perms;
+    allow recovery sysfs_devices_block:file rw_file_perms;
+    allow recovery sysfs_loop:dir r_dir_perms;
+    allow recovery sysfs_loop:file rw_file_perms;
+
+    allowxperm recovery rootfs:dir ioctl { 0x204 BLKGETSIZE 0x1272 };
 ')

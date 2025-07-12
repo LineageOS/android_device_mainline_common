@@ -1,0 +1,2 @@
+# Misc
+allow vendor_init rootfs:dir read;
