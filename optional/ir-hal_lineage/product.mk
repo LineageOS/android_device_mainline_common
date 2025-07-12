@@ -6,6 +6,6 @@
 ifeq ($(TARGET_IR_HAL),lineage)
 
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service.lineage
+    com.android.hardware.ir.lineage
 
 endif # TARGET_IR_HAL
