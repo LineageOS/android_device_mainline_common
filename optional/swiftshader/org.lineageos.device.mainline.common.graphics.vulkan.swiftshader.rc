@@ -1,0 +1,7 @@
+# `on init` is normally not available for .rc files in vendor apexes
+# But the vulkan apex is okay because it's bootstrap APEX.
+# For bootstrap APEXes, `on init` is the earliest available trigger.
+on init
+    setprop ro.cpuvulkan.version 4206592
+    setprop ro.hardware.vulkan pastel
+    setprop ro.vulkan.apex org.lineageos.device.mainline.common.graphics.vulkan.swiftshader

@@ -1,0 +1,43 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+apex {
+    name: "org.lineageos.device.mainline.common.graphics.vulkan.swiftshader",
+    manifest: "apex_manifest.json",
+    key: "com.android.hardware.key",
+    certificate: ":com.android.hardware.certificate",
+    file_contexts: "apex_file_contexts",
+    updatable: false,
+    vendor: true,
+
+    // Zygote GL preloading expects 32-bit /lib/ copies
+    // of the native_shared_libs.
+    compile_multilib: "both",
+
+    native_shared_libs: [
+        "vulkan.pastel",
+    ],
+    prebuilts: [
+        "android.hardware.vulkan.compute-0.prebuilt.xml",
+        "android.hardware.vulkan.level-1.prebuilt.xml",
+        "android.hardware.vulkan.version-1_3.prebuilt.xml",
+        "android.software.opengles.deqp.level-latest.prebuilt.xml",
+        "android.software.vulkan.deqp.level-latest.prebuilt.xml",
+        "org.lineageos.device.mainline.common.graphics.vulkan.swiftshader-linker-config",
+        "org.lineageos.device.mainline.common.graphics.vulkan.swiftshader.rc",
+    ],
+}
+
+linker_config {
+    name: "org.lineageos.device.mainline.common.graphics.vulkan.swiftshader-linker-config",
+    src: "apex_linkerconfig.json",
+    installable: false,
+}
+
+prebuilt_etc {
+    name: "org.lineageos.device.mainline.common.graphics.vulkan.swiftshader.rc",
+    src: "org.lineageos.device.mainline.common.graphics.vulkan.swiftshader.rc",
+    installable: false,
+}
