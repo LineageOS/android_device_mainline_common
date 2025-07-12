@@ -12,6 +12,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Boot parameters
 MAINLINE_COMMON_ANDROIDBOOT_PARAMS := \
+    androidboot.apex.early_adbd=true \
     androidboot.init_fatal_reboot_target=recovery
 MAINLINE_COMMON_KERNEL_PARAMS := \
     firmware_class.path=/vendor/firmware/ \
