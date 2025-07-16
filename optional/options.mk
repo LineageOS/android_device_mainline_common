@@ -3,6 +3,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+##### Availability information #####
+
+ifdef LINEAGE_BUILD
+SUPPORTS_INLINE_KERNEL_BUILDING := true
+endif # LINEAGE_BUILD
+
 ##### Combinations #####
 
 TARGET_INITIAL_BRINGUP ?= false

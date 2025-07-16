@@ -5,9 +5,9 @@
 
 ifneq ($(TARGET_PREBUILT_KERNEL),)
 
-# Aosp requires the kernel get copied to PRODUCT_OUT, but does not define the copy
-# Lineage defines this copy in vendor/lineage, so don't duplicate
-ifeq ($(LINEAGE_BUILD),)
+# AOSP requires the kernel get copied to PRODUCT_OUT, but does not define the copy
+# Lineage inline kernel building support handles this copy, so don't duplicate
+ifneq ($(SUPPORTS_INLINE_KERNEL_BUILDING),true)
 PRODUCT_COPY_FILES += \
     $(TARGET_PREBUILT_KERNEL):kernel
 endif
