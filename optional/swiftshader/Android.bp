@@ -5,7 +5,12 @@
 
 apex {
     name: "org.lineageos.device.graphics.vulkan.swiftshader",
+    defaults: ["org.lineageos.device.graphics.vulkan.swiftshader_defaults"],
     manifest: "apex_manifest.json",
+}
+
+apex_defaults {
+    name: "org.lineageos.device.graphics.vulkan.swiftshader_defaults",
     key: "com.android.hardware.key",
     certificate: ":com.android.hardware.certificate",
     file_contexts: "apex_file_contexts",
