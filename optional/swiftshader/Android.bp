@@ -5,10 +5,19 @@
 
 apex {
     name: "org.lineageos.device.graphics.vulkan.swiftshader",
+    defaults: ["org.lineageos.device.graphics.vulkan.swiftshader_defaults"],
     manifest: "apex_manifest.json",
+
+    prebuilts: [
+        "org.lineageos.device.graphics.vulkan.swiftshader.rc",
+    ],
+}
+
+apex_defaults {
+    name: "org.lineageos.device.graphics.vulkan.swiftshader_defaults",
     key: "com.android.hardware.key",
     certificate: ":com.android.hardware.certificate",
-    file_contexts: "apex_file_contexts",
+    file_contexts: ":org.lineageos.device.graphics.vulkan.swiftshader_apex_file_contexts",
     updatable: false,
     vendor: true,
 
@@ -26,8 +35,17 @@ apex {
         "android.software.opengles.deqp.level-latest.prebuilt.xml",
         "android.software.vulkan.deqp.level-latest.prebuilt.xml",
         "org.lineageos.device.graphics.vulkan.swiftshader-linker-config",
-        "org.lineageos.device.graphics.vulkan.swiftshader.rc",
     ],
+}
+
+filegroup {
+    name: "org.lineageos.device.graphics.vulkan.swiftshader_apex_file_contexts",
+    srcs: ["apex_file_contexts"],
+}
+
+filegroup {
+    name: "org.lineageos.device.graphics.vulkan.swiftshader.rc_filegroup",
+    srcs: ["org.lineageos.device.graphics.vulkan.swiftshader.rc"],
 }
 
 linker_config {
@@ -38,6 +56,6 @@ linker_config {
 
 prebuilt_etc {
     name: "org.lineageos.device.graphics.vulkan.swiftshader.rc",
-    src: "org.lineageos.device.graphics.vulkan.swiftshader.rc",
+    src: ":org.lineageos.device.graphics.vulkan.swiftshader.rc_filegroup",
     installable: false,
 }
