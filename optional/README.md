@@ -45,6 +45,7 @@
 |-------|-----------|-------------|
 | emulated | camera-provider-hal_emulated | Emulated Camera Provider HAL located at `hardware/google/camera/devices/EmulatedCamera` |
 | external | camera-provider-hal_external | https://source.android.com/docs/core/camera/external-usb-cameras |
+| libcamera | camera-provider-hal_libcamera | https://gitlab.baylibre.com/baylibre/ti/android/aosp/external/libcamera https://gitlab.baylibre.com/baylibre/ti/android/aosp/device/ti/am62x |
 
 ## Graphics
 
