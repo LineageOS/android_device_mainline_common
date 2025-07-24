@@ -44,6 +44,7 @@
 | Value | Directory | Description |
 |-------|-----------|-------------|
 | emulated | camera-provider-hal_emulated | Emulated Camera Provider HAL located at `hardware/google/camera/devices/EmulatedCamera` |
+| external | camera-provider-hal_external | https://source.android.com/docs/core/camera/external-usb-cameras |
 
 ## Graphics
 
