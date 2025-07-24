@@ -3,6 +3,11 @@
 /dev/dri/controlD*	0666	system	graphics
 /dev/dri/renderD*	0666	system	graphics
 
+# Media
+/dev/media*		0660	system	camera
+/dev/v4l-subdev*	0660	system	camera
+/dev/video*		0660	system	camera
+
 # Serial console
 /dev/ttyAMA*	0666	system	system
 /dev/ttyMSM*	0666	system	system
