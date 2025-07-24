@@ -1,1 +1,2 @@
+android.hardware.camera.provider.ICameraProvider/external/0 u:object_r:hal_camera_service:s0
 android.hardware.security.sharedsecret.ISharedSecret/gatekeeper	u:object_r:hal_gatekeeper_service:s0
