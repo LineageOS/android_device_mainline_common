@@ -3,6 +3,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+soong_namespace {
+}
+
 prebuilt_etc {
     name: "init.mainline.rc",
     src: "init.mainline.rc",
