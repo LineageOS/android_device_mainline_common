@@ -7,9 +7,6 @@ USES_DEVICE_MAINLINE_COMMON := true
 
 include $(MAINLINE_COMMON_PATH)/optional/*/board.mk
 
-# Bootloader
-TARGET_NO_BOOTLOADER := true
-
 # Boot parameters
 MAINLINE_COMMON_ANDROIDBOOT_PARAMS := \
     androidboot.init_fatal_reboot_target=recovery
@@ -29,6 +26,11 @@ MAINLINE_COMMON_KERNEL_PARAMS += \
     audit=0 \
     panic=-1
 endif
+
+ifneq ($(MAINLINE_COMMON_DISABLE_COMMON_BOARD_DEFS),true)
+
+# Bootloader
+TARGET_NO_BOOTLOADER := true
 
 # Filesystem
 ifeq ($(TARGET_BOOTS_16K),true)
@@ -62,3 +64,5 @@ BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+
+endif # !MAINLINE_COMMON_DISABLE_COMMON_BOARD_DEFS

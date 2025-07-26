@@ -8,6 +8,14 @@ MAINLINE_COMMON_PATH := device/mainline/common
 # Include the fragments
 include $(MAINLINE_COMMON_PATH)/optional/*/product.mk
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(MAINLINE_COMMON_PATH) \
+    external/linux-firmware-mainline \
+    hardware/mainline
+
+ifneq ($(MAINLINE_COMMON_DISABLE_COMMON_PRODUCT_DEFS),true)
+
 # Audio
 ifeq ($(TARGET_AUDIO_HAL_TYPE),hidl)
 PRODUCT_PACKAGES += \
@@ -71,12 +79,6 @@ endif
 PRODUCT_PACKAGES += \
     mediaswcodec.policy.vendor
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(MAINLINE_COMMON_PATH) \
-    external/linux-firmware-mainline \
-    hardware/mainline
-
 # UFFD GC
 PRODUCT_ENABLE_UFFD_GC := true
 
@@ -91,3 +93,5 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.wifi.prebuilt.xml
+
+endif # !MAINLINE_COMMON_DISABLE_COMMON_PRODUCT_DEFS
