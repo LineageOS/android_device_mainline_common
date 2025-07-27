@@ -59,13 +59,18 @@ TARGET_GRAPHICS_VULKAN ?= swiftshader
 endif
 
 # Graphics HALs
-TARGET_GRAPHICS_COMPOSER_HAL ?= drm_hwcomposer
 TARGET_MEMTRACK_HAL ?= default-aidl
 
 ifeq ($(TARGET_GRAPHICS),mesa)
 TARGET_GRAPHICS_ALLOCATOR_HAL ?= gbm
 else
 TARGET_GRAPHICS_ALLOCATOR_HAL ?= minigbm
+endif
+
+ifeq ($(TARGET_INITIAL_BRINGUP),true)
+TARGET_GRAPHICS_COMPOSER_HAL ?= drmfb-composer
+else
+TARGET_GRAPHICS_COMPOSER_HAL ?= drm_hwcomposer
 endif
 
 # Health
