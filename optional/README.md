@@ -79,6 +79,7 @@
 |-------|-----------|-------------|
 | default-hidl-2.2 | graphics-composer-hal_default-hidl-2.2 | Supports framebuffer display |
 | drm_hwcomposer | drm_hwcomposer | Generic DRM HWComposer |
+| drmfb-composer | drmfb-composer | Refer to hardware/mainline/interfaces/graphics/composer/drmfb/README.md |
 
 ### TARGET_MEMTRACK_HAL
 | Value | Directory | Description |
