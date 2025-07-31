@@ -129,6 +129,13 @@
 | false | Light HAL will not scan for backlight devices. Backlight may be handled by graphics composer HAL instead. |
 | true | Light HAL will scan for backlight devices. Useful if light HAL is supposed to handle backlight and it could not find the backlight device by default. |
 
+## Media
+
+### TARGET_MEDIA_C2_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| v4l2_codec2 | v4l2_codec2 | Refer to external/v4l2_codec2/README.md |
+
 ## Power
 
 ### TARGET_POWER_HAL
