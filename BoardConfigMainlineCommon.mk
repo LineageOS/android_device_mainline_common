@@ -42,6 +42,11 @@ endif
 TARGET_SYSTEM_EXT_PROP += $(MAINLINE_COMMON_PATH)/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(MAINLINE_COMMON_PATH)/properties/vendor.prop
 
+ifeq ($(PRODUCT_IS_GO),true)
+TARGET_PRODUCT_PROP += $(MAINLINE_COMMON_PATH)/properties/product_go.prop
+TARGET_VENDOR_PROP += $(MAINLINE_COMMON_PATH)/properties/vendor_go.prop
+endif
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 

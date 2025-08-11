@@ -44,6 +44,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Go
+ifeq ($(PRODUCT_IS_GO),true)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults.mk)
+endif
+
 # Init
 PRODUCT_PACKAGES += \
     init.mainline.rc \
@@ -53,6 +58,11 @@ $(call soong_config_set,libinit,vendor_init_lib,//$(MAINLINE_COMMON_PATH):init_m
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+ifeq ($(PRODUCT_IS_GO),true)
+DEVICE_PACKAGE_OVERLAYS += \
+    $(MAINLINE_COMMON_PATH)/overlays/overlay-go
+endif
 
 # Page size
 PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 16384
@@ -65,6 +75,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.software.ipsec_tunnels.prebuilt.xml
+
+ifeq ($(PRODUCT_IS_GO),true)
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/go_handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/go_handheld_core_hardware.xml
+endif
 
 # Recovery
 PRODUCT_PACKAGES += \
