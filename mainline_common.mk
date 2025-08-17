@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Go
 ifeq ($(PRODUCT_IS_GO),true)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults$(PRODUCT_GO_DEFAULTS_SUFFIX).mk)
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackageGo.mk)
 ## Enable DM file preopting to reduce first boot time
 PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
