@@ -64,7 +64,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     $(MAINLINE_COMMON_PATH)/sepolicy/private
 
-ifeq ($(wildcard device/lineage/sepolicy),)
+ifeq ($(LINEAGE_BUILD),)
 BOARD_VENDOR_SEPOLICY_DIRS += \
     $(MAINLINE_COMMON_PATH)/sepolicy/vendor/lineage
 endif
