@@ -7,7 +7,7 @@ ifneq ($(filter mesa,$(TARGET_GRAPHICS_EGL) $(TARGET_GRAPHICS_VULKAN)),)
 
 BOARD_MESA3D_USES_MESON_BUILD := true
 
-MESA_VERSION_STRING := $(shell cat external/mesa/VERSION)
+MESA_VERSION_STRING := $(or $(shell cat external/mesa/VERSION 2>/dev/null),$(shell cat hardware/mesa/VERSION))
 MESA_VERSION_MAJOR := $(shell echo "$(MESA_VERSION_STRING)" | cut -d '.' -f 1)
 MESA_VERSION_MINOR := $(shell echo "$(MESA_VERSION_STRING)" | cut -d '.' -f 2)
 MESA_VERSION_PATCH_PRE := $(shell echo "$(MESA_VERSION_STRING)" | cut -d '.' -f 3)
