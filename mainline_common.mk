@@ -72,6 +72,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(MAINLINE_COMMON_PATH)/overlays/overlay-go
 endif
 
+ifneq ($(LINEAGE_BUILD),)
+DEVICE_PACKAGE_OVERLAYS += \
+    $(MAINLINE_COMMON_PATH)/overlays/overlay-lineage
+endif
+
 # Page size
 PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 16384
 PRODUCT_NO_BIONIC_PAGE_SIZE_MACRO := true
