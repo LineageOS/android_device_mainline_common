@@ -16,6 +16,24 @@
       "message": "Can\u0027t just let prop be overridden with ?\u003d instead of creating one more flag?",
       "revId": "2f1a9e3eae1b55a7f0ffcfba44188d5b68996ecf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07b86fef_72b96a98",
+        "filename": "optional/minigbm/product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-09-25T20:23:43Z",
+      "side": 1,
+      "message": "nope, I want that to be overrideable at runtime",
+      "parentUuid": "1dc5898a_a7a938ed",
+      "revId": "2f1a9e3eae1b55a7f0ffcfba44188d5b68996ecf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
