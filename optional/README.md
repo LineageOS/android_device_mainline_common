@@ -190,6 +190,7 @@
 ### TARGET_SENSORS_HAL
 | Value | Directory | Description |
 |-------|-----------|-------------|
+| cuttlefish | sensors-hal_cuttlefish | Emulated sensors HAL. Command `cuttlefish_sensor_injection` can be used to inject sensor values. |
 | iio | sensors-hal_iio | Support sensors that exposes IIO interface. |
 
 ## USB
