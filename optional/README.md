@@ -185,6 +185,13 @@
 |-------|-----------|-------------|
 | default | keymint-hal_default | |
 
+## Sensors
+
+### TARGET_SENSORS_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| iio | sensors-hal_iio | Support sensors that exposes IIO interface. |
+
 ## USB
 
 ### TARGET_USB_HAL
