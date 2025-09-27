@@ -1,2 +1,5 @@
 # Misc
 allow vendor_init rootfs:dir read;
+
+# Properties
+set_prop(vendor_init, vendor_sensors_iio_prop)

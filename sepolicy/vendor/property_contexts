@@ -5,3 +5,6 @@ vendor.vendor_ts_vkeys.		u:object_r:vendor_ts_vkeys_prop:s0
 vendor.drm.gpu.vendor_name	u:object_r:vendor_mesa_prop:s0
 vendor.mesa.			u:object_r:vendor_mesa_prop:s0
 vendor.qemu.vk.log		u:object_r:vendor_mesa_prop:s0
+
+# Sensors
+#ro.iio.			u:object_r:vendor_sensors_iio_prop:s0
