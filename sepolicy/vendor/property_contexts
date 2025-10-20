@@ -7,4 +7,4 @@ vendor.mesa.			u:object_r:vendor_mesa_prop:s0
 vendor.qemu.vk.log		u:object_r:vendor_mesa_prop:s0
 
 # Sensors
-#ro.iio.			u:object_r:vendor_sensors_iio_prop:s0
+ro.vendor.iio.			u:object_r:vendor_sensors_iio_prop:s0
