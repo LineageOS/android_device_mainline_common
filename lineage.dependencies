@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_external_drm_hwcomposer-upstream",
+    "target_path": "external/drm_hwcomposer-upstream"
+  },
+  {
     "repository": "android_external_linux-firmware-mainline",
     "target_path": "external/linux-firmware-mainline"
   },

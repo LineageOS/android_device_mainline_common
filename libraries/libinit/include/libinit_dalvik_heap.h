@@ -6,4 +6,15 @@
 
 #pragma once
 
+#include <string>
+
+struct dalvik_heap_info {
+    std::string heapstartsize;
+    std::string heapgrowthlimit;
+    std::string heapsize;
+    std::string heapminfree;
+    std::string heapmaxfree;
+    std::string heaptargetutilization;
+};
+
 void set_dalvik_heap(void);

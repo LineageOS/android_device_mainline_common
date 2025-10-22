@@ -8,6 +8,7 @@
 
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
+
 #include <vector>
 
 void property_override(std::string prop, std::string value, bool add) {
@@ -19,7 +20,7 @@ void property_override(std::string prop, std::string value, bool add) {
     }
 }
 
-static const std::vector<std::string> ro_props_default_source_order = {
+std::vector<std::string> ro_props_default_source_order = {
         "odm.", "odm_dlkm.", "product.", "system.", "system_ext.", "vendor.", "vendor_dlkm.", "",
 };
 

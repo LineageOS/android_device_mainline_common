@@ -5,14 +5,9 @@
  */
 
 #include <libinit_dalvik_heap.h>
-
 #include <libinit_utils.h>
 
 #include <sys/sysinfo.h>
-#include <string>
-
-#define MB(b) (b * 1024ull * 1024)
-#define GB(b) (MB(b) * 1024)
 
 static const std::string kHeapStartSizeProp = "dalvik.vm.heapstartsize";
 static const std::string kHeapGrowthLimitProp = "dalvik.vm.heapgrowthlimit";
@@ -21,14 +16,8 @@ static const std::string kHeapMinFreeProp = "dalvik.vm.heapminfree";
 static const std::string kHeapMaxFreeProp = "dalvik.vm.heapmaxfree";
 static const std::string kHeapTargetUtilizationProp = "dalvik.vm.heaptargetutilization";
 
-struct dalvik_heap_info {
-    std::string heapstartsize;
-    std::string heapgrowthlimit;
-    std::string heapsize;
-    std::string heapminfree;
-    std::string heapmaxfree;
-    std::string heaptargetutilization;
-};
+#define MB(b) (b * 1024ull * 1024)
+#define GB(b) (MB(b) * 1024)
 
 static const dalvik_heap_info dalvik_heap_info_6144 = {
         .heapstartsize = "16m",

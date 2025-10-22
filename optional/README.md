@@ -44,7 +44,6 @@
 ### TARGET_BOOT_HAL
 | Value | Directory | Description |
 |-------|-----------|-------------|
-| default | boot-hal_default | Boot control HAL that uses Android Bootloader Control Block (BCB) as backend. Note that this usually won't make sense on targets that has its own way of handling A/B slot select. |
 | grub | boot-hal_grub | Boot control HAL that is designed to work with GRUB boot manager. Note that GRUB itself does not directly support this, the bootloader side boot control handling should be implemented via GRUB configuration file. |
 
 ## Camera

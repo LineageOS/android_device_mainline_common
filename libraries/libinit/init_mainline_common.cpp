@@ -4,12 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "vendor_init.h"
-
+#include <android-base/file.h>
 #include <libinit_dalvik_heap.h>
 #include <libinit_utils.h>
 
-#include <android-base/file.h>
+#include "vendor_init.h"
 
 #include <unordered_map>
 
