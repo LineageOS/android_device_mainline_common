@@ -4,6 +4,10 @@
     "target_path": "external/linux-firmware-mainline"
   },
   {
+    "repository": "android_external_drm_hwcomposer-upstream",
+    "target_path": "external/drm_hwcomposer-upstream"
+  },
+  {
     "repository": "android_external_mesa",
     "target_path": "external/mesa"
   },
