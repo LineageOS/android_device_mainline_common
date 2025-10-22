@@ -5,7 +5,7 @@
 
 ifeq ($(TARGET_GRAPHICS_COMPOSER_HAL),drm_hwcomposer)
 
-TARGET_DRM_HWCOMPOSER_VARIANT ?= aosp
+TARGET_DRM_HWCOMPOSER_VARIANT ?= upstream
 ifeq ($(TARGET_DRM_HWCOMPOSER_VARIANT),upstream)
 LOCAL_SUFFIX := _upstream
 else
