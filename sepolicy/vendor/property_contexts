@@ -1,6 +1,9 @@
 # Input (ts_vkeys)
 vendor.vendor_ts_vkeys.		u:object_r:vendor_ts_vkeys_prop:s0
 
+# Graphics (drm_hwc)
+vendor.hwc.drm.device		u:object_r:vendor_hwc_drm_prop:s0 exact string
+
 # Graphics (Mesa)
 vendor.drm.gpu.vendor_name	u:object_r:vendor_mesa_prop:s0
 vendor.mesa.			u:object_r:vendor_mesa_prop:s0
