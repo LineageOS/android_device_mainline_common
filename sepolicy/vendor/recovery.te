@@ -14,4 +14,6 @@ recovery_only(`
     allow recovery sysfs_loop:file rw_file_perms;
 
     allowxperm recovery rootfs:dir ioctl { 0x204 BLKGETSIZE 0x1272 };
+
+    rw_dir_file(recovery, vendor_sysfs_backlight)
 ')
