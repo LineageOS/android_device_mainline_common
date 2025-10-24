@@ -1,1 +1,2 @@
 allow mediaswcodec hal_graphics_allocator_default_tmpfs:file { read write };
+get_prop(mediaswcodec, vendor_mesa_prop)
