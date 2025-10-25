@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "473b20d9_0e5a242d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-10-25T15:42:13Z",
+      "side": 1,
+      "message": "Q: Should this repo contain GRUB stuff?\nA: I think yes, since the usage of GRUB usually only happens with mainline Android port, and the thing is completely generic",
+      "revId": "f486e27335b44f857b8613fb2c56cf73b4aabcee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
