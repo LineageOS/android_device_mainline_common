@@ -16,6 +16,23 @@
       "message": "what about using `gpu_access()` macro instead?",
       "revId": "3e3aafc3a0ecee95bedf0f2e2f258b3b75ec3862",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cafa51d_0d4c3b81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-10-25T16:01:17Z",
+      "side": 1,
+      "message": "(not resolved)",
+      "revId": "3e3aafc3a0ecee95bedf0f2e2f258b3b75ec3862",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
