@@ -16,6 +16,23 @@
       "message": "call it `vendor_hwc_drm_prop` instead?",
       "revId": "c2e4760fc05d0205cceaf55d3a7fb5ee73d7e73c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f48b7c35_bbfe070f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-10-25T16:01:12Z",
+      "side": 1,
+      "message": "(not resolved)",
+      "revId": "c2e4760fc05d0205cceaf55d3a7fb5ee73d7e73c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
