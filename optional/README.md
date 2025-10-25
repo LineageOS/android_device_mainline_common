@@ -39,6 +39,13 @@
 |-------|-----------|-------------|
 | default-aidl | bluetooth-hal_default-aidl | HCI-based Bluetooth AIDL HAL |
 
+## Boot
+
+### TARGET_BOOT_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| grub | boot-hal_grub | Boot control HAL that is designed to work with GRUB boot manager. Note that GRUB itself does not directly support this, the bootloader side boot control handling should be implemented via GRUB configuration file. |
+
 ## Camera
 
 ### TARGET_CAMERA_PROVIDER_HAL
