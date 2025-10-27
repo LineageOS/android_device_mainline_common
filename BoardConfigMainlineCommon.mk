@@ -30,7 +30,7 @@ endif
 ifneq ($(MAINLINE_COMMON_DISABLE_COMMON_BOARD_DEFS),true)
 
 # Bootloader
-TARGET_NO_BOOTLOADER := true
+TARGET_NO_BOOTLOADER ?= true
 
 # Filesystem
 ifeq ($(TARGET_BOOTS_16K),true)
