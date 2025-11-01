@@ -16,6 +16,24 @@
       "message": "Move before `external/linux-firmware-mainline`",
       "revId": "0aa1f2db52f2e3701e742173032f71317586e269",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f088b4d_0955241f",
+        "filename": "lineage.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-01T14:37:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac3d7f69_55a96800",
+      "revId": "0aa1f2db52f2e3701e742173032f71317586e269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
