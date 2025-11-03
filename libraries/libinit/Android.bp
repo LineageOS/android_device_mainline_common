@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2021 The LineageOS Project
+// Copyright (C) 2021-2025 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -8,6 +8,7 @@ cc_library_static {
     name: "libinit_mainline_common",
     srcs: [
         "libinit_dalvik_heap.cpp",
+        "libinit_set_properties.cpp",
         "libinit_utils.cpp",
     ],
     whole_static_libs: ["libbase"],
@@ -20,5 +21,10 @@ cc_library_static {
     srcs: ["init_mainline_common.cpp"],
     whole_static_libs: ["libinit_mainline_common"],
     include_dirs: ["system/core/init"],
+    cflags: select(soong_config_variable("mainline_common_libinit", "set_properties_from"), {
+        "devicetree": ["-DSET_PROPERTIES_FROM_DEVICETREE"],
+        "dmi_id": ["-DSET_PROPERTIES_FROM_DMI_ID"],
+        default: [],
+    }),
     recovery_available: true,
 }
