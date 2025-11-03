@@ -12,6 +12,12 @@ else
 LOCAL_MINIGBM_MODULE_SUFFIX := _$(TARGET_MINIGBM_PLATFORM)
 endif
 
+ifeq ($(TARGET_MINIGBM_PLATFORM),gbm_mesa)
+ifneq ($(TARGET_GRAPHICS),mesa)
+$(error TARGET_GRAPHICS=mesa is required when TARGET_MINIGBM_PLATFORM=gbm_mesa)
+endif # TARGET_GRAPHICS
+endif # TARGET_MINIGBM_PLATFORM
+
 TARGET_MINIGBM_HAL_INTERFACE ?= aidl
 ifeq ($(TARGET_MINIGBM_HAL_INTERFACE),aidl)
 PRODUCT_PACKAGES += \
@@ -37,6 +43,12 @@ PRODUCT_VENDOR_PROPERTIES += \
 endif
 else
 $(error Not supported)
+endif
+
+ifeq ($(TARGET_MINIGBM_PLATFORM),gbm_mesa)
+PRODUCT_PACKAGES += \
+    dri_gbm \
+    libgbm_mesa
 endif
 
 endif # TARGET_GRAPHICS_ALLOCATOR_HAL
