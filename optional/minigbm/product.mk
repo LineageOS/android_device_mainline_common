@@ -35,4 +35,9 @@ else
 $(error Not supported)
 endif
 
+ifeq ($(TARGET_MINIGBM_PLATFORM),gbm_mesa)
+PRODUCT_PACKAGES += \
+    libgbm_mesa
+endif
+
 endif # TARGET_GRAPHICS_ALLOCATOR_HAL
