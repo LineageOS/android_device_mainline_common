@@ -5,8 +5,6 @@
 
 ifeq ($(TARGET_GRAPHICS_ALLOCATOR_HAL),minigbm)
 
-$(call soong_config_set, minigbm, platform, $(TARGET_MINIGBM_PLATFORM))
-
 ifeq ($(TARGET_MINIGBM_PLATFORM),gbm_mesa)
 BOARD_MESA3D_BUILD_LIBGBM := true
 endif
