@@ -4,6 +4,13 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+cc_defaults {
+    name: "init_mainline_common_defaults",
+    whole_static_libs: ["libinit_mainline_common"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
+
 cc_library_static {
     name: "libinit_mainline_common",
     srcs: [
@@ -19,12 +26,10 @@ cc_library_static {
 cc_library_static {
     name: "init_mainline_common",
     srcs: ["init_mainline_common.cpp"],
-    whole_static_libs: ["libinit_mainline_common"],
-    include_dirs: ["system/core/init"],
+    defaults: ["init_mainline_common_defaults"],
     cflags: select(soong_config_variable("mainline_common_libinit", "set_properties_from"), {
         "devicetree": ["-DSET_PROPERTIES_FROM_DEVICETREE"],
         "dmi_id": ["-DSET_PROPERTIES_FROM_DMI_ID"],
         default: [],
     }),
-    recovery_available: true,
 }
