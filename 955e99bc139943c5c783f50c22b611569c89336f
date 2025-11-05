@@ -52,6 +52,24 @@
       "parentUuid": "2661b13c_3189d50f",
       "revId": "955e99bc139943c5c783f50c22b611569c89336f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "286ff56b_6187312a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-05T02:57:58Z",
+      "side": 1,
+      "message": "I think it should default to be disabled, as this is a extra thing which does overrides silently, devices should default to the AOSP way which uses what\u0027s defined on product mk? and normally only unified targets would want this, which isn\u0027t the most\n\nalways doing both is unnecessary, since only one of both should exist on a target, and both ways overrides the almost same props",
+      "parentUuid": "abf1e064_3b2e0fb2",
+      "revId": "955e99bc139943c5c783f50c22b611569c89336f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
