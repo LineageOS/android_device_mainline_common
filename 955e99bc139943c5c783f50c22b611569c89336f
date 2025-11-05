@@ -16,6 +16,24 @@
       "message": "Question: why should this be opt-in?",
       "revId": "955e99bc139943c5c783f50c22b611569c89336f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2661b13c_3189d50f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-05T01:37:07Z",
+      "side": 1,
+      "message": "because the result it gets is not always what I want (to match with stock build.prop), especially for devices that was launched with Android",
+      "parentUuid": "dbd50037_2cb6939c",
+      "revId": "955e99bc139943c5c783f50c22b611569c89336f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
