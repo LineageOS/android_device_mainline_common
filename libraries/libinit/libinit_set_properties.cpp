@@ -7,11 +7,7 @@
 #include <libinit_set_properties.h>
 #include <libinit_utils.h>
 
-#include <android-base/file.h>
-
 #include <unordered_map>
-
-using android::base::ReadFileToString;
 
 static const std::string kDmiIdPath = "/sys/devices/virtual/dmi/id/";
 static const std::string kDeviceTreePath = "/sys/firmware/devicetree/base/";
@@ -53,16 +49,10 @@ void set_properties_from_dmi_id() {
     std::string value;
 
     for (const auto& [file, prop] : kDmiIdToPropertyMap) {
-        ReadFileToString(kDmiIdPath + file, &value);
-        if (value.empty()) continue;
-        value.pop_back();
-        property_override(prop, value);
+        set_prop_from_file(prop, kDmiIdPath + file);
     }
 
     for (const auto& [file, ro_build_prop] : kDmiIdToRoBuildPropMap) {
-        ReadFileToString(kDmiIdPath + file, &value);
-        if (value.empty()) continue;
-        value.pop_back();
-        set_ro_build_prop(ro_build_prop, value, true);
+        set_ro_build_prop_from_file(prop, kDmiIdPath + file, true);
     }
 }
