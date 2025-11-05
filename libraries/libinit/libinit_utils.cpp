@@ -6,9 +6,13 @@
 
 #include <libinit_utils.h>
 
+#include <android-base/file.h>
+
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
 #include <vector>
+
+using android::base::ReadFileToString;
 
 void property_override(std::string prop, std::string value, bool add) {
     auto pi = (prop_info*)__system_property_find(prop.c_str());
@@ -35,4 +39,21 @@ void set_ro_build_prop(const std::string& prop, const std::string& value, bool p
 
         property_override(prop_name, value, true);
     }
+}
+
+void set_prop_from_file(const std::string& prop, const std::string& file_path) {
+    std::string value;
+    ReadFileToString(file_path, &value);
+    if (value.empty()) return;
+    if (value.back() == '\0') value.pop_back();
+    property_override(prop, value, true);
+}
+
+void set_ro_build_prop_from_file(const std::string& prop, const std::string& file_path,
+                                 bool product) {
+    std::string value;
+    ReadFileToString(file_path, &value);
+    if (value.empty()) return;
+    if (value.back() == '\0') value.pop_back();
+    set_ro_build_prop(prop, value, product);
 }
