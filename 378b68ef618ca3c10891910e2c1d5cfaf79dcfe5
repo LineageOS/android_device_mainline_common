@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "943f8545_d97505a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2025-11-08T04:23:36Z",
+      "side": 1,
+      "message": "Fixes aidl minigbm on tegra",
+      "revId": "378b68ef618ca3c10891910e2c1d5cfaf79dcfe5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
