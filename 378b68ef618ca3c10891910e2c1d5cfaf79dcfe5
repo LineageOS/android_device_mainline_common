@@ -16,6 +16,23 @@
       "message": "Fixes aidl minigbm on tegra",
       "revId": "378b68ef618ca3c10891910e2c1d5cfaf79dcfe5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "656b71c3_46729171",
+        "filename": "optional/minigbm/product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-08T08:06:12Z",
+      "side": 1,
+      "message": "to make this valid, we have to build the HIDL graphics.allocator service too",
+      "revId": "378b68ef618ca3c10891910e2c1d5cfaf79dcfe5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
