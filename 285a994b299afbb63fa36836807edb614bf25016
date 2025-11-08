@@ -16,6 +16,24 @@
       "message": "let\u0027s add this check, so that in such case the user gets warned with a reason rather than seeing missing dependency?\nhttps://github.com/LineageOS/android_device_mainline_common/blob/lineage-23.0/optional/gbm_gralloc/product.mk#L8",
       "revId": "285a994b299afbb63fa36836807edb614bf25016",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1eae08b8_490ab87c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-11-08T03:34:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9aa9f25_ff01bca5",
+      "revId": "285a994b299afbb63fa36836807edb614bf25016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
