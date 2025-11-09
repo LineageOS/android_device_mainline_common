@@ -16,6 +16,24 @@
       "message": "then Mesa will use gralloc.default, which is the FB one and is built by default",
       "revId": "f630a8fcb9d4e2aaf37a37d81c22cc6e37f04d60",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1f957aa_558c189c",
+        "filename": "optional/minigbm/product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-09T02:45:45Z",
+      "side": 0,
+      "message": "nvm",
+      "parentUuid": "f3a60042_00908325",
+      "revId": "f630a8fcb9d4e2aaf37a37d81c22cc6e37f04d60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
