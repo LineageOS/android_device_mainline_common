@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f1cef0f_66d46a64",
+        "filename": "optional/minigbm/product.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-09T02:43:06Z",
+      "side": 1,
+      "message": "why not combining this into the upper gbm_mesa block?",
+      "revId": "57f4ce85e4958cd9596f9557a11894583e1a524b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
