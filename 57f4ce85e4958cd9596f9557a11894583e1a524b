@@ -16,6 +16,24 @@
       "message": "why not combining this into the upper gbm_mesa block?",
       "revId": "57f4ce85e4958cd9596f9557a11894583e1a524b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1606b133_a7d9a86e",
+        "filename": "optional/minigbm/product.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-11-09T22:16:48Z",
+      "side": 1,
+      "message": "Because the first block is just a configuration check, the other one are additional rules based on the platform",
+      "parentUuid": "8f1cef0f_66d46a64",
+      "revId": "57f4ce85e4958cd9596f9557a11894583e1a524b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
