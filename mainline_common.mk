@@ -122,8 +122,7 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    hostapd \
-    wpa_supplicant
+    com.android.hardware.wpa_supplicant
 
 PRODUCT_PACKAGES += \
     android.hardware.wifi.prebuilt.xml
