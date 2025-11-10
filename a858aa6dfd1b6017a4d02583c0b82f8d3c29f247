@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3cd8560_81aa18af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-10T17:36:19Z",
+      "side": 1,
+      "message": "1. The logic change isn\u0027t mentioned in the commit message and shouldn\u0027t be done together with the move. Also, it sucks, i\u0027ll think about a better solution and discuss with you\n2. Does the move make it look better or what? this should count into board configuration by literal sense",
+      "revId": "a858aa6dfd1b6017a4d02583c0b82f8d3c29f247",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
