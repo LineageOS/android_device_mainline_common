@@ -45,7 +45,7 @@ void set_prop_from_file(const std::string& prop, const std::string& file_path) {
     std::string value;
     ReadFileToString(file_path, &value);
     if (value.empty()) return;
-    if (value.back() == '\0') value.pop_back();
+    if (value.back() == '\0' || value.back() == '\x0a') value.pop_back();
     property_override(prop, value, true);
 }
 
@@ -54,6 +54,6 @@ void set_ro_build_prop_from_file(const std::string& prop, const std::string& fil
     std::string value;
     ReadFileToString(file_path, &value);
     if (value.empty()) return;
-    if (value.back() == '\0') value.pop_back();
+    if (value.back() == '\0' || value.back() == '\x0a') value.pop_back();
     set_ro_build_prop(prop, value, product);
 }
