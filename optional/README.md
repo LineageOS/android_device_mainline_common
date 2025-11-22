@@ -208,6 +208,13 @@
 | cuttlefish | sensors-hal_cuttlefish | Emulated sensors HAL. Command `cuttlefish_sensor_injection` can be used to inject sensor values. |
 | iio | sensors-hal_iio | Support sensors that exposes IIO interface. |
 
+## TV - HDMI
+
+### TARGET_TV_HDMI_CEC_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| baylibre | tv-hdmi-cec-hal_baylibre | Generic AIDL CEC HAL by BayLibre |
+
 ## USB
 
 ### TARGET_USB_HAL
