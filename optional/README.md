@@ -113,6 +113,13 @@
 |-------|-----------|-------------|
 | default-aidl | memtrack-hal_default-aidl | |
 
+## Hdmi
+
+### TARGET_CEC_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| baylibre | hdmi-cec_baylibre | Generic aidl cec hal by Baylibre |
+
 ## Health
 
 ### TARGET_HEALTH_HAL

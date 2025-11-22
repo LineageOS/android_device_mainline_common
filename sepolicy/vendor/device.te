@@ -1,1 +1,2 @@
 type sd_device, dev_type;
+type cec_device, dev_type;
