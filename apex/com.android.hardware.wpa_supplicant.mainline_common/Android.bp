@@ -24,7 +24,6 @@ apex {
     prebuilts: [
         "com.android.hardware.wpa_supplicant.rc",
         "com.android.hardware.hostapd.rc",
-        "wpa_supplicant.conf.prebuilt",
     ],
     vintf_fragment_modules: [
         "android.hardware.wifi.hostapd.xml",
