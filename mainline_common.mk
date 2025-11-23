@@ -120,9 +120,6 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    com.android.hardware.wpa_supplicant
-
-PRODUCT_PACKAGES += \
     android.hardware.wifi.prebuilt.xml
 
 # Wi-Fi firmware

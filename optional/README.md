@@ -235,3 +235,12 @@
 | Value | Directory | Description |
 |-------|-----------|-------------|
 | glodroid | vibrator-hal_glodroid | Supports generic FF class vibrator devices |
+
+## Wi-Fi
+
+### TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM
+| Value | Description |
+|-------|-------------|
+| legacy | Installs to /vendor/bin/hw directory, and loads configuration files from vendor partition. |
+| apex-aosp | Installs to `com.android.hardware.wpa_supplicant` APEX, and loads configuration files from the APEX. This APEX includes a default wpa_supplicant configuration file. |
+| apex-mainline_common | Similar to `apex-aosp`, however expects the target to specify to include its own configuration files (as soong prebuilt_etc modules) via soong config variable (namespace: `mainline_common_apex_wpa_supplicant`, variable: `include_prebuilts`, type: `string_list`). |

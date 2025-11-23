@@ -115,3 +115,6 @@ endif
 ifneq ($(TARGET_HAS_VIBRATOR),false)
 TARGET_VIBRATOR_HAL ?= glodroid
 endif
+
+# Wi-Fi
+TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM ?= apex-aosp
