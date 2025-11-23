@@ -213,6 +213,7 @@
 ### TARGET_USB_HAL
 | Value | Directory | Description |
 |-------|-----------|-------------|
+| baylibre | usb-hal_baylibre | |
 | lineage-basic | usb-hal_lineage | |
 | lineage-dual_role_usb | usb-hal_lineage | |
 | lineage-typec | usb-hal_lineage | |
@@ -220,6 +221,7 @@
 ### TARGET_USB_GADGET_HAL
 | Value | Directory | Description |
 |-------|-----------|-------------|
+| baylibre | usb-hal_baylibre | |
 | mainline | usb-gadget-hal_mainline | |
 
 ### TARGET_USB_INIT_SCRIPT
