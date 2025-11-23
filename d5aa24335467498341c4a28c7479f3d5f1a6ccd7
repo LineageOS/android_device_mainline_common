@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4830673a_f4957a12",
+        "filename": "optional/audio-hal_baylibre/product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-23T03:01:03Z",
+      "side": 1,
+      "message": "btw, note that if we really ending up forking that hal, i\u0027d want to rename that .generic to .baylibre",
+      "revId": "d5aa24335467498341c4a28c7479f3d5f1a6ccd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
