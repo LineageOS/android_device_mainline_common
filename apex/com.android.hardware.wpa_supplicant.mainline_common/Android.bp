@@ -1,0 +1,33 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+apex {
+    name: "com.android.hardware.wpa_supplicant.mainline_common",
+    manifest: "apex_manifest.json",
+    file_contexts: "file_contexts",
+    // TODO: b/363080108 - Replace placeholder key with release key
+    key: "com.android.hardware.key",
+    certificate: ":com.android.hardware.certificate",
+    updatable: false,
+    vendor: true,
+
+    enabled: select(soong_config_variable("wpa_supplicant_8", "wpa_build_hostapd"), {
+        true: true,
+        default: false,
+    }),
+    binaries: [
+        "wpa_supplicant",
+        "hostapd",
+    ],
+    prebuilts: [
+        "com.android.hardware.wpa_supplicant.rc",
+        "com.android.hardware.hostapd.rc",
+        "wpa_supplicant.conf.prebuilt",
+    ],
+    vintf_fragment_modules: [
+        "android.hardware.wifi.hostapd.xml",
+        "android.hardware.wifi.supplicant.xml",
+    ],
+}
