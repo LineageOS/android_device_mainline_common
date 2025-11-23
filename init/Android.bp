@@ -3,11 +3,17 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-soong_namespace {
+prebuilt_defaults {
+    name: "mainline_common_init_defaults",
+    enabled: select(soong_config_variable("mainline_common_init", "enabled"), {
+        true: true,
+        default: false,
+    }),
 }
 
 prebuilt_etc {
     name: "init.mainline.rc",
+    defaults: ["mainline_common_init_defaults"],
     src: "init.mainline.rc",
     sub_dir: "init/hw",
     vendor: true,
@@ -15,6 +21,7 @@ prebuilt_etc {
 
 prebuilt_etc {
     name: "init.recovery.mainline.rc",
+    defaults: ["mainline_common_init_defaults"],
     src: "init.recovery.mainline.rc",
     sub_dir: "init",
     recovery: true,
@@ -22,6 +29,7 @@ prebuilt_etc {
 
 prebuilt_etc {
     name: "ueventd.mainline.rc",
+    defaults: ["mainline_common_init_defaults"],
     src: "ueventd.rc",
     filename_from_src: true,
     vendor: true,
@@ -29,6 +37,7 @@ prebuilt_etc {
 
 prebuilt_etc {
     name: "zram.rc",
+    defaults: ["mainline_common_init_defaults"],
     src: "zram.rc",
     sub_dir: "init",
     vendor: true,

@@ -66,6 +66,8 @@ ifndef SOONG_CONFIG_libinit_vendor_init_lib
 $(call soong_config_set,libinit,vendor_init_lib,//$(MAINLINE_COMMON_PATH):init_mainline_common)
 endif
 
+$(call soong_config_set_bool,mainline_common_init,enabled,true)
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -108,10 +110,6 @@ endif
 # Seccomp policy
 PRODUCT_PACKAGES += \
     mediaswcodec.policy.vendor
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(MAINLINE_COMMON_PATH)/init
 
 # UFFD GC
 PRODUCT_ENABLE_UFFD_GC := true
