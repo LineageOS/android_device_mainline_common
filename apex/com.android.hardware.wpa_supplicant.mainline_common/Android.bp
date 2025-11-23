@@ -24,7 +24,10 @@ apex {
     prebuilts: [
         "com.android.hardware.wpa_supplicant.rc",
         "com.android.hardware.hostapd.rc",
-    ],
+    ] + select(soong_config_variable("mainline_common_apex_wpa_supplicant", "include_prebuilts"), {
+        any @ prebuilts: prebuilts,
+        default: [],
+    }),
     vintf_fragment_modules: [
         "android.hardware.wifi.hostapd.xml",
         "android.hardware.wifi.supplicant.xml",
