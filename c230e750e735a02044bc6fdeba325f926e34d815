@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b14023e_2f335566",
+        "filename": "optional/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-23T03:07:51Z",
+      "side": 1,
+      "message": "TV - HDMI",
+      "revId": "c230e750e735a02044bc6fdeba325f926e34d815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dee097f8_5a7dd04c",
+        "filename": "optional/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-23T03:07:51Z",
+      "side": 1,
+      "message": "TARGET_TV_HDMI_CEC_HAL\n\nbecause the naming convention is:\n\nhardware/interfaces/X/Y\n\u003d\u003e\nTARGET_X_Y_HAL",
+      "revId": "c230e750e735a02044bc6fdeba325f926e34d815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "425d8e36_768c4994",
+        "filename": "optional/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-23T03:07:51Z",
+      "side": 1,
+      "message": "`tv-hdmi-cec-hal_baylibre`\n\nand, uppercases in Description field",
+      "revId": "c230e750e735a02044bc6fdeba325f926e34d815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f6fe175_3d409ef5",
+        "filename": "sepolicy/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-11-23T03:07:51Z",
+      "side": 1,
+      "message": "`[0-9]+` instead of 0 maybe?",
+      "revId": "c230e750e735a02044bc6fdeba325f926e34d815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
