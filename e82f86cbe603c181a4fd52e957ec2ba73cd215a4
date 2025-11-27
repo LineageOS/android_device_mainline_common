@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc97ca05_677bfdbf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2025-11-27T17:17:53Z",
+      "side": 1,
+      "message": "With the rebrand dropped, this no longer depends on anything else.",
+      "revId": "e82f86cbe603c181a4fd52e957ec2ba73cd215a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
