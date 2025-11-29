@@ -16,6 +16,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 ifneq ($(MAINLINE_COMMON_DISABLE_COMMON_PRODUCT_DEFS),true)
 
+# AAPT
+ifeq ($(PRODUCT_IS_ATV),true)
+PRODUCT_AAPT_PREF_CONFIG ?= tvdpi
+endif
+
 # Audio
 ifeq ($(TARGET_AUDIO_HAL_TYPE),hidl)
 PRODUCT_PACKAGES += \
@@ -97,6 +102,11 @@ ifneq ($(PRODUCT_IS_AUTOMOTIVE),true)
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
 endif
+endif
+
+ifeq ($(PRODUCT_IS_AUTOMOTIVE),true)
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/car_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/car_core_hardware.xml
 endif
 
 ifeq ($(PRODUCT_IS_GO),true)
