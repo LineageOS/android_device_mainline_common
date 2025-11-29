@@ -34,7 +34,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # DLKM Loader
 PRODUCT_PACKAGES += \
-    dlkm_loader
+    dlkm_loader_mainline
 
 # DRM
 PRODUCT_PACKAGES += \
