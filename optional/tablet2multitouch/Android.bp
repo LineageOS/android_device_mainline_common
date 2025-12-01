@@ -1,0 +1,9 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_usr_idc {
+    name: "tablet2multitouch.idc"
+    src: "tablet2multitouch.idc"
+}
