@@ -1,6 +1,9 @@
 # DHCP
 vendor.recovery.ethernet.dhcp.iface		u:object_r:vendor_recovery_ethernet_dhcp_prop:s0 exact string
 
+# Input (tablet2multitouch)
+vendor.tablet2multitouch.	u:object_r:vendor_tablet2multitouch_prop:s0
+
 # Input (ts_vkeys)
 vendor.ts_vkeys.		u:object_r:vendor_ts_vkeys_prop:s0
 
