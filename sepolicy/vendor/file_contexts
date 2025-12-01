@@ -6,6 +6,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.composer\.hwc3-service\.drm(_upstream)?		u:object_r:hal_graphics_composer_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.media\.c2@1\.2-service-v4l2-(32|64)			u:object_r:mediacodec_exec:s0
 /(vendor|system/vendor)/bin/dlkm_loader(_mainline)?							u:object_r:dlkm_loader_exec:s0
+/(vendor|system/vendor)/bin/tablet2multitouch								u:object_r:tablet2multitouch_exec:s0
 /(vendor|system/vendor)/bin/ts_vkeys									u:object_r:vendor_ts_vkeys_exec:s0
 /(vendor|system/vendor)/bin/suspend_blocker								u:object_r:suspend_blocker_exec:s0
 
