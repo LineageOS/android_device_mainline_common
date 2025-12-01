@@ -128,6 +128,11 @@
 |-------|-----------|-------------|
 | true | ts_vkeys | Enables support for touchscreen virtual keys. It reads touchscreen input events, registers a uinput device, and sends EV_KEY events to the uinput device. Requires the target to provide properties to function. |
 
+### TARGET_USES_TABLET_INPUT_AS_TOUCHSCREEN
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | tablet2multitouch | A program that creates a virtual touchscreen, converting input events from a tablet input device, effectively allowing to use tablet input devices as touchscreen. To use this, blacklist the source tablet input device names via `/vendor/etc/excluded-input-devices.xml` file for system, and `ro.minui.blacklist_input_devices` property for LineageOS Recovery, and specify the source tablet input device names via `vendor.tablet2multitouch.device_names` property (separated by `,`) |
+
 ## Kernel
 
 ### TARGET_PREBUILT_KERNEL
