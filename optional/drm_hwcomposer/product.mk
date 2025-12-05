@@ -14,6 +14,7 @@ endif
 
 TARGET_DRM_HWCOMPOSER_HAL_INTERFACE ?= aidl
 ifeq ($(TARGET_DRM_HWCOMPOSER_HAL_INTERFACE),aidl)
+TARGET_DRM_HWCOMPOSER_INSIDE_APEX ?= true
 ifeq ($(TARGET_DRM_HWCOMPOSER_INSIDE_APEX),true)
 PRODUCT_PACKAGES += \
     com.android.hardware.graphics.composer.drm_hwcomposer$(LOCAL_SUFFIX)
