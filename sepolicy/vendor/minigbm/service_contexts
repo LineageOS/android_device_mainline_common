@@ -1,1 +1,2 @@
 mapper/minigbm		u:object_r:hal_graphics_mapper_service:s0
+mapper/minigbm_upstream	u:object_r:hal_graphics_mapper_service:s0
