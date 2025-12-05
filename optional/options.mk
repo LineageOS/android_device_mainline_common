@@ -69,7 +69,7 @@ TARGET_MEMTRACK_HAL ?= default-aidl
 ifeq ($(TARGET_GRAPHICS),mesa)
 TARGET_GRAPHICS_ALLOCATOR_HAL ?= gbm
 else
-TARGET_GRAPHICS_ALLOCATOR_HAL ?= minigbm
+TARGET_GRAPHICS_ALLOCATOR_HAL ?= minigbm-upstream
 endif
 
 ifeq ($(TARGET_INITIAL_BRINGUP),true)
