@@ -18,4 +18,8 @@ $(warning Enabling all platforms in minigbm-upstream. Please configure appropria
 $(call soong_config_set,minigbm_upstream,platform,all)
 endif
 
+ifeq ($(TARGET_MINIGBM_UPSTREAM_ENABLE_GBM_MESA_DRIVER),true)
+BOARD_MESA3D_BUILD_LIBGBM := true
+endif
+
 endif # TARGET_GRAPHICS_ALLOCATOR_HAL
