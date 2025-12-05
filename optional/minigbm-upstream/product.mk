@@ -15,4 +15,14 @@ PRODUCT_PACKAGES += \
     mapper.minigbm_upstream
 endif
 
+ifeq ($(TARGET_MINIGBM_UPSTREAM_ENABLE_GBM_MESA_DRIVER),true)
+ifneq ($(TARGET_GRAPHICS),mesa)
+$(error TARGET_GRAPHICS=mesa is required when TARGET_MINIGBM_UPSTREAM_ENABLE_GBM_MESA_DRIVER=true)
+endif
+PRODUCT_PACKAGES += \
+    dri_gbm \
+    libgbm_mesa
+$(call soong_config_set_bool,minigbm_upstream,enable_gbm_mesa_driver,true)
+endif
+
 endif # TARGET_GRAPHICS_ALLOCATOR_HAL
