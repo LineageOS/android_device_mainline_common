@@ -15,6 +15,7 @@ cc_library_static {
     name: "libinit_mainline_common",
     srcs: [
         "libinit_dalvik_heap.cpp",
+        "libinit_mainline_common.cpp",
         "libinit_set_properties.cpp",
         "libinit_utils.cpp",
     ],
