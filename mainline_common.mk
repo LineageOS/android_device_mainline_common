@@ -12,7 +12,7 @@ include $(MAINLINE_COMMON_PATH)/optional/*/product.mk
 PRODUCT_SOONG_NAMESPACES += \
     $(MAINLINE_COMMON_PATH) \
     external/linux-firmware-mainline \
-    hardware/mainline
+    hardware/mainline/common
 
 ifneq ($(MAINLINE_COMMON_DISABLE_COMMON_PRODUCT_DEFS),true)
 

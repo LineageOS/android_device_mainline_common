@@ -5,6 +5,6 @@
 
 ifeq ($(TARGET_GRAPHICS_COMPOSER_HAL),drmfb-composer)
 
-BOARD_VENDOR_SEPOLICY_DIRS += hardware/mainline/interfaces/graphics/composer/drmfb/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += hardware/mainline/common/interfaces/graphics/composer/drmfb/sepolicy
 
 endif # TARGET_GRAPHICS_COMPOSER_HAL

@@ -16,7 +16,7 @@
     "target_path": "external/mesa"
   },
   {
-    "repository": "android_hardware_mainline",
-    "target_path": "hardware/mainline"
+    "repository": "android_hardware_mainline_common",
+    "target_path": "hardware/mainline/common"
   }
 ]
