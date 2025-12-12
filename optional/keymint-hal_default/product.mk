@@ -6,6 +6,6 @@
 ifeq ($(TARGET_SECURITY_KEYMINT_HAL),default)
 
 PRODUCT_PACKAGES += \
-    android.hardware.security.keymint-service
+    com.android.hardware.keymint.rust_nonsecure
 
 endif # TARGET_SECURITY_KEYMINT_HAL
