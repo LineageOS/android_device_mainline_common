@@ -1,0 +1,12 @@
+type set_bdaddr, domain;
+type set_bdaddr_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(set_bdaddr);
+
+# audit2allow
+allow set_bdaddr proc_cmdline:file { open read };
+allow set_bdaddr proc_bootconfig:file { open read };
+allow set_bdaddr rootfs:dir { open read };
+allow set_bdaddr self:bluetooth_socket { bind create read write };
+allow set_bdaddr self:capability net_admin;
+allow set_bdaddr vendor_file:file execute_no_trans;
+allow set_bdaddr vendor_toolbox_exec:file execute_no_trans;
