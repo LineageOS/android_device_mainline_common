@@ -17,6 +17,13 @@
 # limitations under the License.
 #
 
+# Check if a vendor provided address is available
+
+BTPATH=`getprop ro.vendor.bt.bdaddr_path`
+if [ -f "${BTPATH}" ]
+  BTADDR=$(cat "${BTPATH}")
+fi
+
 # Get the unique board serial number from /proc/cmdline or
 # /proc/bootconfig, prepend '0's to the serial number to
 # fill 5 LSBs of the BT address and prepend "C0" as MSB to
@@ -26,9 +33,12 @@
 # Format the output in xx:xx:xx:xx:xx:xx format for the
 # "bdaddr" command to work.
 
-BTADDR=`/vendor/bin/cat /proc/cmdline | /vendor/bin/grep -o serialno.* |\
-	/vendor/bin/cut -f2 -d'=' | /vendor/bin/awk '{printf("c0%010s\n", $1)}' |\
-	/vendor/bin/sed 's/\(..\)/\1:/g' | /vendor/bin/sed '$s/:$//'`
+if [ -z "${BTADDR}" ]
+then
+  BTADDR=`/vendor/bin/cat /proc/cmdline | /vendor/bin/grep -o serialno.* |\
+	  /vendor/bin/cut -f2 -d'=' | /vendor/bin/awk '{printf("c0%010s\n", $1)}' |\
+	  /vendor/bin/sed 's/\(..\)/\1:/g' | /vendor/bin/sed '$s/:$//'`
+fi
 if [ -z "${BTADDR}" ]
 then
   BTADDR=`/vendor/bin/cat /proc/bootconfig | /vendor/bin/grep -o serialno.* |\
