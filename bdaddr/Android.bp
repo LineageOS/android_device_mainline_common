@@ -25,4 +25,12 @@ cc_binary {
     srcs: ["bdaddr.c"],
     shared_libs: ["liblog"],
     init_rc: ["bdaddr.rc"],
+    required: ["set_bdaddr"],
+}
+
+sh_binary {
+    name: "set_bdaddr",
+    filename: "set_bdaddr.sh",
+    src: "set_bdaddr.sh",
+    soc_specific: true,
 }
