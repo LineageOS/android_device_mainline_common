@@ -21,6 +21,9 @@
 # HDMI CEC
 /dev/cec[0-9]+		u:object_r:cec_device:s0
 
+# Rfkill
+/dev/rfkill		u:object_r:rfkill_device:s0
+
 # Same-Process HAL
 /(vendor|system/vendor)/lib(64)?/hw/gralloc\.gbm\.so						u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/lib(64)?/hw/mapper\.minigbm_[a-z]+\.so					u:object_r:same_process_hal_file:s0
