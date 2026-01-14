@@ -1,0 +1,5 @@
+# firmware
+allow kernel vendor_firmware_file:file r_file_perms;
+allow kernel vendor_firmware_file:dir {getattr search};
+allow kernel vendor_firmware_file:system firmware_load;
+allow kernel dlkm_loader:key search;

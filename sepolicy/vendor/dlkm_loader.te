@@ -10,6 +10,7 @@ allow dlkm_loader system_dlkm_file:file r_file_perms;
 allow dlkm_loader system_dlkm_file:system module_load;
 allow dlkm_loader system_file:system module_load;
 allow dlkm_loader vendor_file:system module_load;
+allow dlkm_loader vendor_firmware_file:system module_load;
 
 # needed for libmodprobe to read kernel commandline
 allow dlkm_loader proc_cmdline:file r_file_perms;

@@ -10,6 +10,9 @@
 /(vendor|system/vendor)/bin/tablet2multitouch								u:object_r:tablet2multitouch_exec:s0
 /(vendor|system/vendor)/bin/ts_vkeys									u:object_r:vendor_ts_vkeys_exec:s0
 
+# Firmware
+/(vendor|system/vendor)/firmware(/.*)?		u:object_r:vendor_firmware_file:s0
+
 # Graphics
 /dev/dri		u:object_r:gpu_device:s0
 /dev/dri/card[0-9]+	u:object_r:gpu_device:s0
