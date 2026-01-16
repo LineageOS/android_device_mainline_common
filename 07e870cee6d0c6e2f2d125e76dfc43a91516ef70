@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b857b07f_7fd34e88",
+        "filename": "sepolicy/vendor/kernel.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-01-16T17:02:39Z",
+      "side": 1,
+      "message": "or what about replacing this and the next line with `r_dir_file` macro?",
+      "revId": "07e870cee6d0c6e2f2d125e76dfc43a91516ef70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "99375af1_d4113b20",
         "filename": "sepolicy/vendor/kernel.te",
         "patchSetId": 1
