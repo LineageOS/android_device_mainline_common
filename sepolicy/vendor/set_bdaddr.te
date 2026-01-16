@@ -10,3 +10,5 @@ allow set_bdaddr self:bluetooth_socket { bind create read write };
 allow set_bdaddr self:capability net_admin;
 allow set_bdaddr vendor_file:file execute_no_trans;
 allow set_bdaddr vendor_toolbox_exec:file execute_no_trans;
+
+r_dir_file(set_bdaddr, mnt_vendor_file)
