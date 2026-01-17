@@ -1,3 +1,6 @@
+# Block
+allow vendor_init sysfs_devices_block:file rw_file_perms;
+
 # DHCP
 set_prop(vendor_init, vendor_recovery_ethernet_dhcp_prop)
 
