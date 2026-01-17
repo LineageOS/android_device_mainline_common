@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0901be2c_ffffc42d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-01-17T01:42:27Z",
+      "side": 1,
+      "message": "I saw a couple different things trying to read compatible. One of them was hexagonrpcd. I forget was the java app was. It could probably be dialed in further. But I\u0027d expect a lot of whack-a-mole, cause a lot of stuff for some reason does.",
+      "parentUuid": "90193783_0f5a8a65",
+      "revId": "6f7b553e0dfe075381c6881e1ba89bf128cc0fc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2cde6787_dccf745f",
         "filename": "sepolicy/vendor/domain.te",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2026-01-16T16:56:26Z",
       "side": 1,
       "message": "shouldn\u0027t the `domain` here be `appdomain` instead?",
+      "revId": "6f7b553e0dfe075381c6881e1ba89bf128cc0fc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9746991e_dbfecfd4",
+        "filename": "sepolicy/vendor/domain.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-01-17T01:42:27Z",
+      "side": 1,
+      "message": "See previous.",
+      "parentUuid": "2cde6787_dccf745f",
       "revId": "6f7b553e0dfe075381c6881e1ba89bf128cc0fc4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
