@@ -16,6 +16,24 @@
       "message": "move to the first line",
       "revId": "d1865d315577d0f892e71a36890485431e3931b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9a99431_10b993d3",
+        "filename": "sepolicy/vendor/property.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-01-17T02:02:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "efc2958d_3e91096d",
+      "revId": "d1865d315577d0f892e71a36890485431e3931b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
