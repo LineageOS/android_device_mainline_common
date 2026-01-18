@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddabf3a5_b5bb8392",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-01-18T04:42:47Z",
+      "side": 1,
+      "message": "bootloader_block_device is defined in qcom_common.",
+      "revId": "e1f3b3ea029d813444c368fc333ae5b5b5c4b27a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
