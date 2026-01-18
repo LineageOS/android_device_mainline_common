@@ -20,5 +20,7 @@ recovery_only(`
 
     r_dir_file(recovery, sysfs_batteryinfo)
     r_dir_file(recovery, sysfs_fs_f2fs)
-    rw_dir_file(recovery, vendor_sysfs_backlight)
+
+    r_dir_file(recovery, vendor_sysfs_backlight)
+    allow recovery vendor_sysfs_backlight:file w_file_perms;
 ')
