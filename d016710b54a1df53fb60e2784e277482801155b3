@@ -16,6 +16,24 @@
       "message": "1. already covered by handheld_core_hardware.xml\n2. this should be in each bt HALs in optional/ since APEX etc/permissions is a thing\n3. use the Android.bp variant instead of PRODUCT_COPY_FILES when available",
       "revId": "d016710b54a1df53fb60e2784e277482801155b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4a10466_79aff7bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-03-04T06:14:22Z",
+      "side": 1,
+      "message": "1. Mmm. It\u0027s not in tv_core_hardware, and that\u0027s where I have an issue. Looking at handheld, tablet, and car; they all have it though. So maybe guarded on atv?\n2. Splitting to every variant when they all end up the same seems unnecessarily wordy.\n3. That I can do.",
+      "parentUuid": "1a9cfd60_f065206d",
+      "revId": "d016710b54a1df53fb60e2784e277482801155b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
