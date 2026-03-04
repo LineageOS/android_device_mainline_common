@@ -32,6 +32,14 @@ PRODUCT_PACKAGES_DEBUG += \
     tinypcminfo2 \
     tinyplay2
 
+# Bluetooth
+ifeq ($(PRODUCT_IS_ATV),true)
+ifneq ($(TARGET_BLUETOOTH_HAL),)
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth_le.prebuilt.xml
+endif
+endif
+
 # DLKM Loader
 PRODUCT_PACKAGES += \
     dlkm_loader_mainline
