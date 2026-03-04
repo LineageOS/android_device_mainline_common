@@ -32,6 +32,12 @@ PRODUCT_PACKAGES_DEBUG += \
     tinypcminfo2 \
     tinyplay2
 
+# Bluetooth
+ifneq ($(TARGET_BLUETOOTH_HAL),)
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml
+endif
+
 # DLKM Loader
 PRODUCT_PACKAGES += \
     dlkm_loader_mainline
