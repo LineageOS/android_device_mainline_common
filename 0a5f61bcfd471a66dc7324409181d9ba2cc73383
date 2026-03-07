@@ -16,6 +16,23 @@
       "message": "Surely better than before",
       "revId": "0a5f61bcfd471a66dc7324409181d9ba2cc73383",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ea145e1_78a24f4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-03-07T23:46:54Z",
+      "side": 1,
+      "message": "Let me get together something that doesn\u0027t break my devices first.",
+      "revId": "0a5f61bcfd471a66dc7324409181d9ba2cc73383",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
