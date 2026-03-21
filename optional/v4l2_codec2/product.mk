@@ -10,13 +10,16 @@ PRODUCT_SOONG_NAMESPACES += external/v4l2_codec2
 
 # Add the build target.
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.2-service-v4l2 \
+    android.hardware.media.c2-service-v4l2 \
     libc2plugin_store.vendor
+
+PRODUCT_VENDOR_PROPERTIES += \
+    media.c2.hal.selection=aidl
 
 # Install extended policy for codec2.
 # The destination is: /vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 PRODUCT_PACKAGES += \
-    codec2.vendor.ext.policy
+    android.hardware.media.c2-extended-seccomp_policy
 
 TARGET_V4L2_CODEC2_USE_EXAMPLE_CONFIGURATION ?= true
 ifeq ($(TARGET_V4L2_CODEC2_USE_EXAMPLE_CONFIGURATION),true)

@@ -8,9 +8,14 @@ fstatat64: 1
 fstatfs64: 1
 getcwd: 1
 getdents64: 1
+getegid32: 1
+geteuid32: 1
+getgid32: 1
 getuid32: 1
 mmap2: 1
 pselect6: 1
+sched_getaffinity: 1
+sched_setaffinity: 1
 statfs64: 1
 sysinfo: 1
 ugetrlimit: 1
