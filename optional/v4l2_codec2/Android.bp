@@ -4,8 +4,15 @@
 //
 
 prebuilt_etc {
-    name: "codec2.vendor.ext.policy",
-    src: "codec2.vendor.ext.policy",
-    sub_dir: "seccomp_policy",
+    name: "android.hardware.media.c2-extended-seccomp_policy",
     vendor: true,
+    sub_dir: "seccomp_policy",
+    arch: {
+        arm: {
+            src: "android.hardware.media.c2-extended-seccomp_policy-arm",
+        },
+        arm64: {
+            src: "android.hardware.media.c2-extended-seccomp_policy-arm64",
+        },
+    },
 }
