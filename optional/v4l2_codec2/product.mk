@@ -10,7 +10,7 @@ PRODUCT_SOONG_NAMESPACES += external/v4l2_codec2
 
 # Add the build target.
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.2-service-v4l2 \
+    android.hardware.media.c2-service-v4l2 \
     libc2plugin_store.vendor
 
 # Install extended policy for codec2.
