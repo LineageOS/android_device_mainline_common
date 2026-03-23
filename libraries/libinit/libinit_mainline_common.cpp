@@ -17,6 +17,8 @@ void vendor_load_properties_mainline_common(void) {
         enable_insecure_debugging();
     }
 
+    enable_memfd_if_ashmem_is_absent();
+
     set_dalvik_heap();
 #ifdef SET_PROPERTIES_FROM_DEVICETREE
     set_properties_from_devicetree();
