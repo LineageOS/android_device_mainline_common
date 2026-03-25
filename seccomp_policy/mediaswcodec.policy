@@ -1,2 +1,4 @@
 mkdirat: 1
 sched_getaffinity: 1
+sched_setaffinity: 1
+sched_setscheduler: 1
