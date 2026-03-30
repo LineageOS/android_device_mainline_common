@@ -1,0 +1,3 @@
+# Some power hals like perfmgr want to read thermals
+binder_call(hal_power_default, hal_thermal_linaro)
+hal_client_domain(hal_power_default, hal_thermal)
