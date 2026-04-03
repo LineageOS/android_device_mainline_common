@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c639c160_08e29fdf",
+        "filename": "optional/README.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-04-03T06:42:43Z",
+      "side": 1,
+      "message": "```\n\n## Thermal\n\n\n```",
+      "revId": "24cdf52e8cbc78f38fc8d8bb10b7f72273f1dfb8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
