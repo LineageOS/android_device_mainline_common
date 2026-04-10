@@ -10,10 +10,15 @@
 #include <libinit_misc.h>
 #include <libinit_set_properties.h>
 
+#include <android-base/properties.h>
+
 #include <unistd.h>
 
+using android::base::GetBoolProperty;
+
 void vendor_load_properties_mainline_common(void) {
-    if (access("/metadata/.enable_insecure_debugging", F_OK) == 0) {
+    if (access("/metadata/.enable_insecure_debugging", F_OK) == 0 ||
+        GetBoolProperty("ro.boot.insecure_adb", false)) {
         enable_insecure_debugging();
     }
 
