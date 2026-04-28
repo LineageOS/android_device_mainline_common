@@ -52,6 +52,24 @@
       "parentUuid": "6b412f57_fed8edb1",
       "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "023eea0a_e78b8397",
+        "filename": "sepolicy/vendor/te_macros",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-04-28T16:25:55Z",
+      "side": 1,
+      "message": "Worst case I just drop the non-vendor mesa. part, or maybe a dontaudit in the system context. That\u0027s technically not gbm_mesa specific, it\u0027s from mesa itself. But for some reason, gbm_mesa is triggering that spam a lot more than I was seeing before.",
+      "parentUuid": "75486516_f1229ab2",
+      "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
