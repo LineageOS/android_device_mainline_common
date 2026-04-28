@@ -16,6 +16,24 @@
       "message": "will this break GSI boot?",
       "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b412f57_fed8edb1",
+        "filename": "sepolicy/vendor/te_macros",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-04-28T15:53:12Z",
+      "side": 1,
+      "message": "Mmm, that\u0027s a good question. I can\u0027t check because gsi fails to boot on my ayn devices anyways and I don\u0027t have pstore (thanks qcom) or uart to figure out why. And I don\u0027t have tegra booting enforcing yet. I\u0027ll check there once I get that finished. Though, I don\u0027t expect it to, I see a lot of vendors using this paradigm.",
+      "parentUuid": "876a6b5b_f2d3a874",
+      "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
