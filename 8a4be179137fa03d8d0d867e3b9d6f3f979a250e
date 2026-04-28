@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f031155_318bbd51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-04-28T15:59:51Z",
+      "side": 1,
+      "message": "we have gbm_mesa in minigbm-upstream now",
+      "revId": "8a4be179137fa03d8d0d867e3b9d6f3f979a250e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
