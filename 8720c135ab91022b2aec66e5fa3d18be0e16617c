@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "876a6b5b_f2d3a874",
+        "filename": "sepolicy/vendor/te_macros",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-04-28T15:46:47Z",
+      "side": 1,
+      "message": "will this break GSI boot?",
+      "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
