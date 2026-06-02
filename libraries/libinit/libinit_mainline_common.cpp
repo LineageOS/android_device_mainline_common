@@ -22,8 +22,6 @@ void vendor_load_properties_mainline_common(void) {
         enable_insecure_debugging();
     }
 
-    enable_memfd_if_ashmem_is_absent();
-
 #ifdef SET_DALVIK_HEAP
     set_dalvik_heap();
 #endif
