@@ -20,14 +20,4 @@ allowxperm hal_graphics_allocator_default graphics_device:chr_file ioctl {
   FBIOPUT_VSCREENINFO
   FBIO_WAITFORVSYNC
 };
-allowxperm hal_graphics_allocator_default gpu_device:chr_file ioctl {
-  DRM_IOCTL_GEM_CLOSE
-  DRM_IOCTL_GET_CAP
-  DRM_IOCTL_MODE_CREATE_DUMB
-  DRM_IOCTL_MODE_DESTROY_DUMB
-  DRM_IOCTL_MODE_GETRESOURCES
-  DRM_IOCTL_PRIME_FD_TO_HANDLE
-  DRM_IOCTL_PRIME_HANDLE_TO_FD
-  DRM_IOCTL_VERSION
-};
 gpu_access(hal_graphics_allocator_default)
