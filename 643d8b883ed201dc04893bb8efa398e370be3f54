@@ -16,6 +16,24 @@
       "message": "would need to check if this breaks build for x86",
       "revId": "643d8b883ed201dc04893bb8efa398e370be3f54",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4b17303_38c49e1b",
+        "filename": "optional/v4l2_codec2/Android.bp",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-06-13T02:22:12Z",
+      "side": 1,
+      "message": "I wouldn\u0027t think so, if the target isn\u0027t enabling this, but would be worth a build test. I don\u0027t have any such target, could you pick the change and check?",
+      "parentUuid": "23ddbb3e_0e62f83a",
+      "revId": "643d8b883ed201dc04893bb8efa398e370be3f54",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
