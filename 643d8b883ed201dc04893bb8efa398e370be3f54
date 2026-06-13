@@ -34,6 +34,24 @@
       "parentUuid": "23ddbb3e_0e62f83a",
       "revId": "643d8b883ed201dc04893bb8efa398e370be3f54",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32a50f22_b515f2e4",
+        "filename": "optional/v4l2_codec2/Android.bp",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-06-13T02:24:12Z",
+      "side": 1,
+      "message": "soong complains about every bad modules even if it\u0027s not built or inside a non-enabled namespace...",
+      "parentUuid": "a4b17303_38c49e1b",
+      "revId": "643d8b883ed201dc04893bb8efa398e370be3f54",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
