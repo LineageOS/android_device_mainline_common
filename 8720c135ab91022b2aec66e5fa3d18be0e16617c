@@ -70,6 +70,24 @@
       "parentUuid": "75486516_f1229ab2",
       "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "788993b6_6cec675d",
+        "filename": "sepolicy/vendor/te_macros",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-06-15T16:52:49Z",
+      "side": 1,
+      "message": "Did you get to check this? I\u0027ve booted a gsi on tegra with this picked and it booted fine. I wasn\u0027t even thinking about this change at the time or I would have updated then.",
+      "parentUuid": "023eea0a_e78b8397",
+      "revId": "8720c135ab91022b2aec66e5fa3d18be0e16617c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
