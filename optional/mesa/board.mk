@@ -14,8 +14,12 @@ MESA_VERSION_PATCH_PRE := $(shell echo "$(MESA_VERSION_STRING)" | cut -d '.' -f 
 MESA_VERSION_PATCH := $(shell echo "$(MESA_VERSION_PATCH_PRE)" | cut -d '-' -f 1)
 MESA_VERSION_PRE_RELEASE := $(shell echo "$(MESA_VERSION_PATCH_PRE)" | cut -d '-' -f 2)
 
+BOARD_MESA3D_MESON_ARGS := -Dprecomp-compiler=system
 ifeq ($(shell expr $(MESA_VERSION_MAJOR) \>= 25), 1)
-BOARD_MESA3D_MESON_ARGS := -Dmesa-clc=system
+BOARD_MESA3D_MESON_ARGS += -Dmesa-clc=system
+    ifeq ($(shell expr $(MESA_VERSION_MINOR) \>= 3), 1)
+        BOARD_MESA3D_MESON_ARGS += -Dspirv-tools=disabled
+    endif
 endif
 
 ifeq ($(TARGET_MESA_ENABLE_SOFTWARE_RENDERER),true)
