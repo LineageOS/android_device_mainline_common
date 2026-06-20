@@ -257,6 +257,11 @@
 
 ## Wi-Fi
 
+### TARGET_ENABLE_VIRT_WIFI
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | virt_wifi | Enable support for creation of virtual Wi-Fi interface with MAC address prefix specified by property `ro.boot.wifi_mac_prefix` based on a ethernet interface specified via property `ro.vendor.virtwifi.port` (defaults to `eth0`). This requires `CONFIG_VIRT_WIFI` to be enabled in the kernel. The service should be started by device-specific init rc. After this starts to function, the ethernet interface will become unavailable to the others. |
+
 ### TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM
 | Value | Description |
 |-------|-------------|
