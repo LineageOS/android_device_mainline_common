@@ -257,6 +257,11 @@
 
 ## Wi-Fi
 
+### TARGET_ENABLE_VIRT_WIFI
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | virt_wifi | Enable support for creation of virtual Wi-Fi interface based on a ethernet port specified via property `ro.vendor.virtwifi.port` (defaults to `eth0`). This requires `CONFIG_VIRT_WIFI` to be enabled in the kernel. The service should be started by device-specific init rc. |
+
 ### TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM
 | Value | Description |
 |-------|-------------|

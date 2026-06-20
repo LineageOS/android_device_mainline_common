@@ -29,3 +29,6 @@ ro.vendor.iio.			u:object_r:vendor_sensors_iio_prop:s0
 
 # USB
 vendor.usb.			u:object_r:vendor_usb_prop:s0
+
+# VirtWifi
+ro.boot.wifi_mac_prefix		u:object_r:vendor_wifi_mac_prefix:s0 exact string

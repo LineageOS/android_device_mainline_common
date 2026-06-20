@@ -1,0 +1,6 @@
+service setup_wifi /vendor/bin/setup_wifi --interface=${ro.vendor.virtwifi.port:-eth0}
+    user root
+    group root
+    disabled
+    oneshot
+    override # overrides the one on setup_wifi.rc which is bundled with setup_wifi
