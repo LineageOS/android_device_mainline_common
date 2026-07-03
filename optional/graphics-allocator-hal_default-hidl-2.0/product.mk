@@ -11,4 +11,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     manifest_mainline_common_graphics-allocator-hal_default-hidl-2.0.xml
 
+$(call soong_config_set_bool,libui,legacy_gralloc,true)
+
 endif # TARGET_GRAPHICS_ALLOCATOR_HAL
