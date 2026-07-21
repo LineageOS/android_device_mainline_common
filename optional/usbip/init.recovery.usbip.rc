@@ -1,0 +1,9 @@
+service usbipd-device /system/bin/usbipd --device
+    user root
+    group root
+    seclabel u:r:usbip:s0
+    stdio_to_kmsg
+
+on init
+    start usbipd-device
+    setprop sys.usb.controller usbip-vudc.0

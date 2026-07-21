@@ -1,0 +1,10 @@
+type usbip, domain;
+type usbip_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(usbip);
+
+recovery_only(`
+    domain_trans(init, rootfs, usbip)
+')
+
+allow usbip kmsg_debug_device:chr_file rw_file_perms;

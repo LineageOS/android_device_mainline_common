@@ -13,6 +13,7 @@
 /(vendor|system/vendor)/bin/suspend_blocker								u:object_r:suspend_blocker_exec:s0
 /(vendor|system/vendor)/bin/tablet2multitouch								u:object_r:tablet2multitouch_exec:s0
 /(vendor|system/vendor)/bin/ts_vkeys									u:object_r:vendor_ts_vkeys_exec:s0
+/(vendor|system/vendor)/bin/usbip(d)?									u:object_r:usbip_exec:s0
 
 # Firmware
 /(vendor|system/vendor)/firmware(/.*)?		u:object_r:vendor_firmware_file:s0
