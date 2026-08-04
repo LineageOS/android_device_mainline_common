@@ -6,7 +6,7 @@
 ifeq ($(TARGET_EXTERNAL_CAMERA_PROVIDER_HAL),default-aidl)
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider-V1-external-service-lazy \
+    android.hardware.camera.provider-V1-external-service \
     manifest_mainline_common_external-camera-provider-hal.xml
 
 PRODUCT_COPY_FILES += \
