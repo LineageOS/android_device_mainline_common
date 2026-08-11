@@ -1,2 +1,2 @@
-allow virtualizationmanager surfaceflinger:fd use;
-allow virtualizationmanager surfaceflinger:unix_stream_socket { read write };
+allow virtualizationmanager_domain surfaceflinger:fd use;
+allow virtualizationmanager_domain surfaceflinger:unix_stream_socket { read write };
