@@ -1,0 +1,2 @@
+# Executables
+/(system_ext|system/system_ext)/bin/fbkeyboard		u:object_r:fbkeyboard_exec:s0
