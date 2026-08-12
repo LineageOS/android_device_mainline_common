@@ -15,6 +15,7 @@ TARGET_INITIAL_BRINGUP ?= false
 ifeq ($(TARGET_INITIAL_BRINGUP),true)
 $(warning TARGET_INITIAL_BRINGUP is set. Please unset it when possible.)
 TARGET_CONSOLE_AS_ROOT ?= true
+TARGET_ENABLE_FBKEYBOARD ?= true
 TARGET_GRAPHICS ?= swiftshader
 TARGET_HEALTH_HAL ?= cuttlefish
 TARGET_SUPPORTS_SUSPEND ?= false

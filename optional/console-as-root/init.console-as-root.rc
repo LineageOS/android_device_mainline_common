@@ -12,3 +12,4 @@ service console /system/bin/sh
 
 on init
     start console
+    start fbkeyboard
