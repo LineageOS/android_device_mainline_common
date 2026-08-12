@@ -177,6 +177,11 @@
 
 ## Miscellaneous
 
+### TARGET_CONSOLE_AS_ROOT
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | console-as-root | Runs the `console` service as root user, in `u:r:su:0` SELinux domain. Useful for debugging via console. |
+
 ### TARGET_ENABLE_FBKEYBOARD
 | Value | Directory | Description |
 |-------|-----------|-------------|
