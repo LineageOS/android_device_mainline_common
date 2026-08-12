@@ -175,6 +175,13 @@
 |-------|-----------|-------------|
 | v4l2_codec2 | v4l2_codec2 | Refer to external/v4l2_codec2/README.md |
 
+## Miscellaneous
+
+### TARGET_CONSOLE_AS_ROOT
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | console-as-root | Runs the `console` service as root user, in `u:r:su:0` SELinux domain. Useful for debugging via console. |
+
 ## Power
 
 ### TARGET_POWER_HAL
