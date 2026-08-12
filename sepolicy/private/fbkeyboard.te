@@ -1,0 +1,14 @@
+type fbkeyboard, domain, coredomain;
+type fbkeyboard_exec, exec_type, system_file_type, file_type;
+
+init_daemon_domain(fbkeyboard);
+
+allow fbkeyboard device:dir r_dir_perms;
+allow fbkeyboard graphics_device:chr_file rw_file_perms;
+allow fbkeyboard graphics_device:dir r_dir_perms;
+allow fbkeyboard input_device:dir r_dir_perms;
+allow fbkeyboard input_device:chr_file rw_file_perms;
+allow fbkeyboard kmsg_device:chr_file rw_file_perms;
+allow fbkeyboard self:capability sys_tty_config;
+allow fbkeyboard tty_device:chr_file rw_file_perms;
+allow fbkeyboard uhid_device:chr_file rw_file_perms;

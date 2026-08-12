@@ -182,6 +182,11 @@
 |-------|-----------|-------------|
 | true | console-as-root | Runs the `console` service as root user, in `u:r:su:0` SELinux domain. Useful for debugging via console. |
 
+### TARGET_ENABLE_FBKEYBOARD
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | fbkeyboard | Shows a virtual keyboard on the first framebuffer device. Useful for interacting with framebuffer console on touchscreen devices. |
+
 ## Power
 
 ### TARGET_POWER_HAL
