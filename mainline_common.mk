@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi.prebuilt.xml
 
+$(call soong_config_set,hostapd,platform_version,$(PLATFORM_VERSION))
+$(call soong_config_set,wpa_supplicant,platform_version,$(PLATFORM_VERSION))
+
 # Wi-Fi firmware
 PRODUCT_PACKAGES += \
     wireless-regdb
