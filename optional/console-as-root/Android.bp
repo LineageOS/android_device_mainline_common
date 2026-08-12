@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.console-as-root.rc",
+    src: "init.console-as-root.rc",
+    sub_dir: "init",
+    recovery_available: true,
+    system_ext_specific: true,
+}
