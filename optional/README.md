@@ -175,6 +175,13 @@
 |-------|-----------|-------------|
 | v4l2_codec2 | v4l2_codec2 | Refer to external/v4l2_codec2/README.md |
 
+## Miscellaneous
+
+### TARGET_ENABLE_FBKEYBOARD
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | fbkeyboard | Shows a virtual keyboard on the first framebuffer device. Useful for interacting with framebuffer console on touchscreen devices. |
+
 ## Power
 
 ### TARGET_POWER_HAL
