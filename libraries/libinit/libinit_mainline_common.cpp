@@ -16,14 +16,14 @@
 
 using android::base::GetBoolProperty;
 
-void vendor_process_bootenv_mainline_common(void) {}
-
-void vendor_load_properties_mainline_common(void) {
+void vendor_process_bootenv_mainline_common(void) {
     if (access("/metadata/.enable_insecure_debugging", F_OK) == 0 ||
         GetBoolProperty("ro.boot.insecure_adb", false)) {
         enable_insecure_debugging();
     }
+}
 
+void vendor_load_properties_mainline_common(void) {
 #ifdef SET_DALVIK_HEAP
     set_dalvik_heap();
 #endif
