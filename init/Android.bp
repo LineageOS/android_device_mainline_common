@@ -28,6 +28,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.system_ext.mainline.rc",
+    defaults: ["mainline_common_init_defaults"],
+    src: "init.system_ext.mainline.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
     name: "ueventd.mainline.rc",
     defaults: ["mainline_common_init_defaults"],
     src: "ueventd.rc",
