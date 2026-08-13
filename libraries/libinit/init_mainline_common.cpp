@@ -8,6 +8,10 @@
 
 #include <libinit_mainline_common.h>
 
+void vendor_process_bootenv() {
+    vendor_process_bootenv_mainline_common();
+}
+
 void vendor_load_properties() {
     vendor_load_properties_mainline_common();
 }
