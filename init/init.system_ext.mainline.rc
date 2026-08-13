@@ -1,0 +1,8 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# ADB
+on load-bpf-programs && property:ro.adb.secure=0
+    start adbd

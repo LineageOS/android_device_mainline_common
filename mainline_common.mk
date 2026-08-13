@@ -60,6 +60,7 @@ endif
 # Init
 PRODUCT_PACKAGES += \
     init.mainline.rc \
+    init.system_ext.mainline.rc \
     ueventd.mainline.rc
 
 ifndef SOONG_CONFIG_libinit_vendor_init_lib
