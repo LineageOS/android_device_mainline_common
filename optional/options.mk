@@ -106,6 +106,9 @@ TARGET_GATEKEEPER_HAL ?= software-aidl
 TARGET_SECURITY_KEYMINT_HAL ?= default
 endif
 
+# Sensors
+TARGET_SENSORS_HAL ?= mainline
+
 # USB
 ifneq ($(TARGET_SUPPORTS_USB_ACCESSORY_MODE),false)
 TARGET_USB_GADGET_HAL ?= mainline

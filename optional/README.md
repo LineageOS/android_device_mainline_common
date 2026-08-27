@@ -226,6 +226,7 @@
 |-------|-----------|-------------|
 | cuttlefish | sensors-hal_cuttlefish | Emulated sensors HAL. Command `cuttlefish_sensor_injection` can be used to inject sensor values. |
 | iio | sensors-hal_iio | Support sensors that exposes IIO interface. |
+| mainline | sensors-hal_mainline | Sensors HAL that exactly matches with mainline kernel usecase by design. Multiple backends are supported, and more backends can be added later. |
 
 ## Thermal
 
