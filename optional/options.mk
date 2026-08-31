@@ -24,8 +24,9 @@ endif
 TARGET_USES_FRAMEBUFFER_DISPLAY ?= false
 ifeq ($(TARGET_USES_FRAMEBUFFER_DISPLAY),true)
 TARGET_GRAPHICS ?= swiftshader
-TARGET_GRAPHICS_ALLOCATOR_HAL := default-hidl-2.0
-TARGET_GRAPHICS_COMPOSER_HAL := default-hidl-2.2
+# Note: FB Graphics HALs selection will use the flag TARGET_USES_FRAMEBUFFER_DISPLAY instead
+TARGET_GRAPHICS_ALLOCATOR_HAL := none
+TARGET_GRAPHICS_COMPOSER_HAL := none
 endif
 
 ##### Components #####
