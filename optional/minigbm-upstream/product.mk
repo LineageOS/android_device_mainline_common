@@ -17,7 +17,6 @@ endif
 PRODUCT_PACKAGES += \
     dri_gbm \
     libgbm_mesa
-TARGET_MINIGBM_UPSTREAM_INSIDE_APEX := false
 $(call soong_config_set_bool,minigbm_upstream,enable_gbm_mesa_driver,true)
 endif
 
