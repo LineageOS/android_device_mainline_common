@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "261c6cc5_18e42648",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-02T22:30:28Z",
+      "side": 1,
+      "message": "Apparently it isn\u0027t supported by swiftshader. This fails with the missing multi queue support assertation.",
+      "revId": "962bb6d50bc63e7c3f98b700945ccc19b3bcbee5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
