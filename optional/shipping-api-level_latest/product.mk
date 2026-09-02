@@ -1,0 +1,10 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+ifeq ($(TARGET_FOLLOWS_LATEST_SHIPPING_API_LEVEL),true)
+
+PRODUCT_SHIPPING_API_LEVEL := 37
+
+endif # TARGET_FOLLOWS_LATEST_SHIPPING_API_LEVEL
