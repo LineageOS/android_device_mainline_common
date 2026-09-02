@@ -70,6 +70,24 @@
       "parentUuid": "ecd329e5_31fd272f",
       "revId": "9c8edf852f069f7cc4e0a4a91c8a7e5dfbebb130",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca0a9ff4_66271a0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-09-02T17:44:33Z",
+      "side": 1,
+      "message": "the X can only be number of the current latest API level?\n\nwell, then the point of this thing is, sooner 99% mainline devices can stick to latest levels, and there\u0027s no need to update the value in every device trees on every platform update",
+      "parentUuid": "9b93b49c_7a6b6050",
+      "revId": "9c8edf852f069f7cc4e0a4a91c8a7e5dfbebb130",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
