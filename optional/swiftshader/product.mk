@@ -14,4 +14,6 @@ PRODUCT_COPY_FILES += \
 # TODO(b/65201432): Swiftshader needs to create executable memory.
 PRODUCT_REQUIRES_INSECURE_EXECMEM_FOR_SWIFTSHADER := true
 
+TARGET_USES_VULKAN := true
+
 endif # TARGET_GRAPHICS_VULKAN
