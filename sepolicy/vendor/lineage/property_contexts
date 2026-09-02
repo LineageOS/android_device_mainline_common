@@ -1,0 +1,2 @@
+# Light
+vendor.light.backlight.disable		u:object_r:vendor_light_prop:s0
