@@ -153,6 +153,18 @@
 | true | prebuilt_kernel | Kernel was built in gki mixed mode |
 | false | prebuilt_kernel | Kernel was not built in gki mixed mode, requiring module signature workarounds |
 
+## Level
+
+### TARGET_FOLLOWS_LATEST_SHIPPING_API_LEVEL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | shipping-api-level_latest | Follows latest shipping API level. |
+
+### TARGET_FOLLOWS_LATEST_VINTF_TARGET_LEVEL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | vintf-target-level_latest | Follows latest VINTF target-level. |
+
 ## Light
 
 ### TARGET_LIGHT_HAL
