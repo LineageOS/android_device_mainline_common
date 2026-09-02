@@ -31,7 +31,7 @@ apex_defaults {
     prebuilts: [
         "android.hardware.vulkan.compute-0.prebuilt.xml",
         "android.hardware.vulkan.level-1.prebuilt.xml",
-        "android.hardware.vulkan.version-1_3.prebuilt.xml",
+        "android.hardware.vulkan.version-1_4.prebuilt.xml",
         "android.software.opengles.deqp.level-latest.prebuilt.xml",
         "android.software.vulkan.deqp.level-latest.prebuilt.xml",
         "org.lineageos.device.graphics.vulkan.swiftshader-linker-config",
