@@ -95,7 +95,6 @@ endif
 
 # Light
 TARGET_LIGHT_HAL ?= lineage
-TARGET_LIGHT_HAL_SCAN_FOR_BACKLIGHT_DEVICES ?= true
 
 # Power
 TARGET_POWER_HAL ?= default-aidl
