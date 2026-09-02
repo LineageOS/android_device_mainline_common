@@ -7,6 +7,9 @@ drm.service.enabled=true
 # Incremental FS
 ro.incremental.enable=1
 
+# Light
+vendor.light.backlight.disable?=true
+
 # Media
 media.c2.hal.selection=aidl
 debug.c2.use_dmabufheaps=1
