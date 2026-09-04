@@ -1,3 +1,6 @@
+# Audio
+vendor.audio.			u:object_r:vendor_audio_prop:s0
+
 # DHCP
 vendor.recovery.ethernet.dhcp.iface		u:object_r:vendor_recovery_ethernet_dhcp_prop:s0 exact string
 
