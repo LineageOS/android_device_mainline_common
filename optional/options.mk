@@ -37,9 +37,11 @@ TARGET_USES_MAINLINE_COMMON_AB_DEFS ?= true
 endif
 
 # Audio
-TARGET_AUDIO_HAL ?= default-aidl
+TARGET_AUDIO_HAL ?= mainline
 
-ifneq ($(filter default-aidl ranchu,$(TARGET_AUDIO_HAL)),)
+ifneq ($(filter mainline,$(TARGET_AUDIO_HAL)),)
+TARGET_AUDIO_POLICY ?= none
+else ifneq ($(filter default-aidl ranchu,$(TARGET_AUDIO_HAL)),)
 TARGET_AUDIO_POLICY ?= cuttlefish
 else
 TARGET_AUDIO_POLICY ?= common-handheld-7.0
