@@ -69,6 +69,9 @@ endif
 $(call soong_config_set_bool,mainline_common_init,enabled,true)
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(MAINLINE_COMMON_PATH)/overlays/overlay
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 ifeq ($(PRODUCT_IS_GO),true)
