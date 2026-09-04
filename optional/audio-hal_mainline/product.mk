@@ -19,6 +19,10 @@ else
 PRODUCT_PACKAGES += $(foreach c,$(TARGET_AUDIO_MAINLINE_UCM_PROFILES),alsa-ucm-conf-card-$(c))
 endif
 
+ifneq ($(TARGET_AUDIO_EFFECT_HAL),)
+$(call soong_config_set_bool,mainline_audio,external_effects,true)
+endif # TARGET_AUDIO_EFFECT_HAL
+
 TARGET_AUDIO_HAL_TYPE := aidl
 
 endif # TARGET_AUDIO_HAL

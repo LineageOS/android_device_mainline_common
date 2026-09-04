@@ -40,10 +40,13 @@ endif
 TARGET_AUDIO_HAL ?= mainline
 
 ifneq ($(filter mainline,$(TARGET_AUDIO_HAL)),)
+TARGET_AUDIO_EFFECT_HAL ?= legacy
 TARGET_AUDIO_POLICY ?= none
 else ifneq ($(filter default-aidl ranchu,$(TARGET_AUDIO_HAL)),)
+TARGET_AUDIO_EFFECT_HAL := none
 TARGET_AUDIO_POLICY ?= cuttlefish
 else
+TARGET_AUDIO_EFFECT_HAL ?= none
 TARGET_AUDIO_POLICY ?= common-handheld-7.0
 TARGET_PROVIDES_AUDIO_POLICY_VOLUMES ?= false
 TARGET_PROVIDES_BLUETOOTH_AUDIO_POLICY ?= false
