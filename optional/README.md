@@ -16,6 +16,11 @@
 | ranchu | audio-hal_ranchu | Similar to `default-aidl`, but the interface type is HIDL instead of AIDL |
 | tinyhal | audio-hal_tinyhal | For targets with complicated sound card. Requires per-board configuration. |
 
+### TARGET_AUDIO_EFFECT_HAL
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| legacy | audio-effect-hal_legacy | AIDL wrapper for libeffects. It's used with custom made Audio AIDL HAL APEXes mainly because the AIDL Audio Effects modules in AOSP have `visibility` restriction by default. Cannot be used with HIDL Audio HAL. |
+
 ### TARGET_AUDIO_POLICY
 | Value | Directory | Description |
 |-------|-----------|-------------|
