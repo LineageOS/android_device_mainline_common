@@ -10,3 +10,9 @@ get_prop($1, vendor_mesa_prop)
 r_dir_file($1, proc_gpu)
 r_dir_file($1, sysfs_gpu)
 ')
+
+#####################################
+# memfd_access(source_domain, target_domain)
+define(`memfd_access', `
+allow $1 $2:memfd_file { read write getattr map };
+')
