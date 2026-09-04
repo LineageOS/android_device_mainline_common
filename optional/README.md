@@ -12,6 +12,7 @@
 |-------|-----------|-------------|
 | baylibre | audio-hal_baylibre | Based on `default-aidl`, updated by BayLibre with better configuration |
 | default-aidl | audio-hal_default-aidl | Usable on targets without any sound card or with a simple sound card |
+| mainline | audio-hal_mainline | Audio AIDL HAL that is built upon alsa-lib and alsa-ucm-conf. Check out `hardware/mainline/common/interfaces/audio/mainline/README.md` for details. |
 | ranchu | audio-hal_ranchu | Similar to `default-aidl`, but the interface type is HIDL instead of AIDL |
 | tinyhal | audio-hal_tinyhal | For targets with complicated sound card. Requires per-board configuration. |
 

@@ -8,6 +8,7 @@ set_prop(vendor_init, vendor_recovery_ethernet_dhcp_prop)
 allow vendor_init rootfs:dir read;
 
 # Properties
+set_prop(vendor_init, vendor_audio_prop)
 set_prop(vendor_init, vendor_hwc_drm_prop)
 set_prop(vendor_init, vendor_gralloc_prop)
 set_prop(vendor_init, vendor_mesa_prop)
