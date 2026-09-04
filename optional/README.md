@@ -99,7 +99,8 @@
 | Value | Directory | Description |
 |-------|-----------|-------------|
 | default-hidl-2.0 | graphics-allocator-hal_default-hidl-2.0 | Supports framebuffer display |
-| gbm | gbm_gralloc | Android gralloc module using libgbm API from Mesa |
+| gbm | gbm_gralloc | Android gralloc libhardware module using libgbm API from Mesa |
+| gralloc_gbm_mesa | gralloc_gbm_mesa | Standalone Mesa GBM Gralloc HAL, using AIDL interface. |
 | minigbm | minigbm | May require additional build flags |
 | minigbm-upstream | minigbm-upstream | Upstream variant of minigbm, with our additions. Requires targets configuring its soong config variables directly. |
 

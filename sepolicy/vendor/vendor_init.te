@@ -9,6 +9,7 @@ allow vendor_init rootfs:dir read;
 
 # Properties
 set_prop(vendor_init, vendor_hwc_drm_prop)
+set_prop(vendor_init, vendor_gralloc_prop)
 set_prop(vendor_init, vendor_mesa_prop)
 set_prop(vendor_init, vendor_sensors_iio_prop)
 set_prop(vendor_init, vendor_tablet2multitouch_prop)

@@ -70,7 +70,7 @@ endif
 TARGET_MEMTRACK_HAL ?= default-aidl
 
 ifeq ($(TARGET_GRAPHICS),mesa)
-TARGET_GRAPHICS_ALLOCATOR_HAL ?= gbm
+TARGET_GRAPHICS_ALLOCATOR_HAL ?= gralloc_gbm_mesa
 else
 TARGET_GRAPHICS_ALLOCATOR_HAL ?= minigbm-upstream
 endif

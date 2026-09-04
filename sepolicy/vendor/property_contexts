@@ -21,6 +21,9 @@ vendor.qemu.vk.log		u:object_r:vendor_mesa_prop:s0
 # Graphics (Minigbm)
 vendor.minigbm.			u:object_r:vendor_minigbm_prop:s0
 
+# Graphics allocator
+vendor.gralloc.			u:object_r:vendor_gralloc_prop:s0
+
 # Net
 vendor.net.			u:object_r:vendor_net_prop:s0 exact string
 
