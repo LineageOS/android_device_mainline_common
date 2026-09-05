@@ -28,6 +28,7 @@ vendor.net.			u:object_r:vendor_net_prop:s0 exact string
 ro.vendor.iio.			u:object_r:vendor_sensors_iio_prop:s0
 
 # USB
+ro.vendor.usb.			u:object_r:vendor_usb_prop:s0
 vendor.usb.			u:object_r:vendor_usb_prop:s0
 
 # VirtWifi
