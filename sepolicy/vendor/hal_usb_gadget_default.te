@@ -1,3 +1,4 @@
+get_prop(hal_usb_gadget_default, usb_control_prop)
 get_prop(hal_usb_gadget_default, vendor_usb_prop)
 
 r_dir_file(hal_usb_gadget_default, functionfs)
