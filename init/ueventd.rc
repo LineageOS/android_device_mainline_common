@@ -9,6 +9,11 @@ import /vendor/etc/ueventd.${ro.hardware}.rc
 /dev/dri/controlD*	0666	system	graphics
 /dev/dri/renderD*	0666	system	graphics
 
+# IIO
+/dev/iio:device*	0660	system	system
+/sys/bus/iio/devices/iio:device*	*	0770	system	system
+/sys/bus/iio/devices/iio:device*	*/*	0660	system	system
+
 # ION
 /dev/ion	0664	system	system
 
