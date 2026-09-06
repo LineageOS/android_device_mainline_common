@@ -6,7 +6,7 @@ init_daemon_domain(dhcpclient)
 net_domain(dhcpclient)
 
 allow dhcpclient self:capability { net_admin net_raw sys_module };
-allow dhcpclient self:netlink_route_socket { ioctl write nlmsg_write };
+allow dhcpclient self:netlink_route_socket { ioctl write nlmsg nlmsg_write };
 #allow dhcpclient varrun_file:dir search;
 allow dhcpclient self:packet_socket { create bind write read };
 allowxperm dhcpclient self:netlink_route_socket ioctl { SIOCGIFFLAGS
