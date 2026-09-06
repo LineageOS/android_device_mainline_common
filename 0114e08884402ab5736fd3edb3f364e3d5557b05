@@ -16,6 +16,24 @@
       "message": "What uses this prop?",
       "revId": "0114e08884402ab5736fd3edb3f364e3d5557b05",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44746cb9_f2347176",
+        "filename": "properties/vendor.prop",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-09-06T18:53:17Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/topic:%22lineage-light-disable-backlight%22",
+      "parentUuid": "d1436042_6b9ab4b5",
+      "revId": "0114e08884402ab5736fd3edb3f364e3d5557b05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
