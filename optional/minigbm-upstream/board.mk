@@ -14,8 +14,10 @@ $(call soong_config_set,minigbm_upstream,platform,$(TARGET_MINIGBM_PLATFORM))
 endif
 
 ifeq ($(TARGET_INITIAL_BRINGUP),true)
+ifndef SOONG_CONFIG_minigbm_upstream_platform
 $(warning Enabling all platforms in minigbm-upstream. Please configure appropriate minigbm_upstream soong config variables once TARGET_INITIAL_BRINGUP is unset.)
 $(call soong_config_set,minigbm_upstream,platform,all)
+endif
 endif
 
 ifeq ($(TARGET_MINIGBM_UPSTREAM_ENABLE_GBM_MESA_DRIVER),true)
