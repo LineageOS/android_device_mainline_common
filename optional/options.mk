@@ -129,3 +129,8 @@ endif
 
 # Wi-Fi
 TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM ?= apex-aosp
+
+##### Inherits #####
+
+# Inherit from mainline/common-ext
+-include device/mainline/common-ext/optional/options.mk
