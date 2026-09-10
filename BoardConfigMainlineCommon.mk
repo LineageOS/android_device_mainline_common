@@ -5,6 +5,10 @@
 
 USES_DEVICE_MAINLINE_COMMON := true
 
+# Inherit from mainline/common-ext
+-include device/mainline/common-ext/BoardConfigMainlineCommonExt.mk
+
+# Include the fragments
 include $(MAINLINE_COMMON_PATH)/optional/*/board.mk
 
 # Boot parameters

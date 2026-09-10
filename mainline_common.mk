@@ -5,6 +5,9 @@
 
 MAINLINE_COMMON_PATH := device/mainline/common
 
+# Inherit from mainline/common-ext
+$(call inherit-product-if-exists, device/mainline/common-ext/mainline_common-ext.mk)
+
 # Include the fragments
 include $(MAINLINE_COMMON_PATH)/optional/*/product.mk
 
