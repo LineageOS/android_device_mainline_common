@@ -197,6 +197,7 @@
 ### TARGET_MEDIA_C2_HAL
 | Value | Directory | Description |
 |-------|-----------|-------------|
+| ffmpeg | media-c2-hal_ffmpeg | Codec2 AIDL HAL using ffmpeg as backend. Imported from [raspberry-vanilla](https://github.com/raspberry-vanilla). |
 | v4l2_codec2 | v4l2_codec2 | Refer to external/v4l2_codec2/README.md |
 
 ## Miscellaneous
