@@ -22,6 +22,10 @@ import /vendor/etc/ueventd.${ro.hardware}.rc
 /dev/v4l-subdev*	0660	media	camera
 /dev/video*		0660	media	camera
 
+# Rfkill
+/dev/rfkill			0660	bluetooth	bluetooth
+/sys/class/rfkill/rfkill* state	0664	bluetooth	net_bt
+
 # Serial console
 /dev/ttyAMA*	0666	system	system
 /dev/ttyMSM*	0666	system	system
