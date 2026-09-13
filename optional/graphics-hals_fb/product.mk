@@ -4,6 +4,7 @@
 #
 
 ifeq ($(TARGET_USES_FRAMEBUFFER_DISPLAY),true)
+ifneq ($(MAINLINE_COMMON_USE_EXT_MODULES),true)
 
 PRODUCT_PACKAGES += \
     com.android.hardware.graphics.allocator.fb \
@@ -11,4 +12,5 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,fb_graphics,RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL,$(RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL))
 
+endif # !MAINLINE_COMMON_USE_EXT_MODULES
 endif # TARGET_USES_FRAMEBUFFER_DISPLAY

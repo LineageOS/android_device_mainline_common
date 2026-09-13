@@ -12,6 +12,8 @@ endif # LINEAGE_BUILD
 ifeq ($(MAINLINE_COMMON_PREFER_EXT_MODULES),true)
 ifeq ($(wildcard device/mainline/common-ext/optional/options.mk),)
 $(warning Target device prefers using modules from mainline/common-ext repository, however it is not available. Features may not work as intended.)
+else
+MAINLINE_COMMON_USE_EXT_MODULES := true
 endif
 endif
 
