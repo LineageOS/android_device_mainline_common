@@ -73,9 +73,9 @@ Add this on top of device-specific product makefile, such as `device.mk`:
 $(call inherit-product, device/mainline/common/mainline_common.mk)
 ```
 
-If the device should apply default options of the optional components,
-add this to device-specific product makefile, such as `device.mk`,
-before where the override of the default options begin:
+If the device should get the default options of the optional components
+on its own product makefiles, add this to it, before where the override
+of the default options begin:
 
 ```
 # Include default options from mainline/common

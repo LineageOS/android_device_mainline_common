@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+ifneq ($(MAINLINE_COMMON_OPTIONS_MK_INCLUDED),true)
+MAINLINE_COMMON_OPTIONS_MK_INCLUDED := true
+
 ##### Availability information #####
 
 ifdef LINEAGE_BUILD
@@ -141,3 +144,5 @@ TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM ?= apex-aosp
 
 # Inherit from mainline/common-ext
 -include device/mainline/common-ext/optional/options.mk
+
+endif # !MAINLINE_COMMON_OPTIONS_MK_INCLUDED
