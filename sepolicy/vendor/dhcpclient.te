@@ -5,8 +5,8 @@ type dhcpclient_exec, exec_type, vendor_file_type, file_type;
 init_daemon_domain(dhcpclient)
 net_domain(dhcpclient)
 
-allow dhcpclient self:capability { net_admin net_raw sys_module };
 allow dhcpclient self:netlink_route_socket { ioctl write nlmsg_write };
+allow dhcpclient self:capability { net_admin net_raw sys_module };
 allowxperm dhcpclient self:netlink_route_socket nlmsg { RTM_NEWADDR RTM_NEWROUTE };
 #allow dhcpclient varrun_file:dir search;
 allow dhcpclient self:packet_socket { create bind write read };
