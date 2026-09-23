@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de436fd2_ddcaf109",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-23T06:53:54Z",
+      "side": 1,
+      "message": "This is the only thing I\u0027ve got in a device specific ueventd for my ayn targets. And any device that does a normal bt setup is going to need this, so it\u0027s better to have in common.",
+      "revId": "9d20ed2af82263cc1a679763c4a62dd5ff1f521c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
