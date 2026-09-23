@@ -6,6 +6,7 @@ recovery_only(`
     allow recovery boottime_prop:property_service set;
     allow recovery gpu_device:chr_file rw_file_perms;
     allow recovery gpu_device:dir search;
+    allow recovery meow:dir search;
     allow recovery proc_meminfo:file r_file_perms;
     allow recovery pstorefs:dir search;
     allow recovery self:capability fsetid;
