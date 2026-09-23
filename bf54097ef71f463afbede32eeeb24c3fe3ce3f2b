@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b653694b_ee370ef4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-09-23T06:07:50Z",
+      "side": 1,
+      "message": "will it conflict with other C2 XMLs defined on Android.bp?",
+      "revId": "bf54097ef71f463afbede32eeeb24c3fe3ce3f2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
