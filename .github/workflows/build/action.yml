@@ -1,0 +1,12 @@
+name: build
+
+runs:
+  using: composite
+  steps:
+  - name: Check SELinux policy
+    shell: bash
+    run: python3 build/tools/check_sepolicy.py
+
+  - name: Test SELinux policy checker
+    shell: bash
+    run: python3 -m unittest discover -s build/tools -p 'test_*.py'
