@@ -7,8 +7,8 @@ recovery_only(`
     domain_trans(init, rootfs, tablet2multitouch)
 ')
 
-allow tablet2multitouch input_device:dir r_dir_perms;
 allow tablet2multitouch input_device:chr_file rw_file_perms;
+allow tablet2multitouch input_device:dir r_dir_perms;
 allow tablet2multitouch kmsg_device:chr_file rw_file_perms;
 allow tablet2multitouch uhid_device:chr_file rw_file_perms;
 

@@ -11,10 +11,10 @@ allowxperm dhcpclient self:netlink_route_socket nlmsg { RTM_NEWADDR RTM_NEWROUTE
 #allow dhcpclient varrun_file:dir search;
 allow dhcpclient self:packet_socket { create bind write read };
 allowxperm dhcpclient self:netlink_route_socket ioctl { SIOCGIFFLAGS
-                                                        SIOCSIFFLAGS
-                                                        SIOCSIFMTU
+                                                        SIOCGIFHWADDR
                                                         SIOCGIFINDEX
-                                                        SIOCGIFHWADDR };
+                                                        SIOCSIFFLAGS
+                                                        SIOCSIFMTU };
 
 set_prop(dhcpclient, vendor_net_prop);
 

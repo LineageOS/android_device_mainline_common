@@ -7,12 +7,6 @@ vendor.recovery.ethernet.dhcp.iface		u:object_r:vendor_recovery_ethernet_dhcp_pr
 # DLKM
 vendor.dlkm.modules.ready			u:object_r:vendor_dlkm_prop:s0 exact bool
 
-# Input (tablet2multitouch)
-vendor.tablet2multitouch.	u:object_r:vendor_tablet2multitouch_prop:s0
-
-# Input (ts_vkeys)
-vendor.ts_vkeys.		u:object_r:vendor_ts_vkeys_prop:s0
-
 # Graphics (drm_hwc)
 vendor.hwc.drm.device		u:object_r:vendor_hwc_drm_prop:s0 exact string
 
@@ -26,6 +20,12 @@ vendor.minigbm.			u:object_r:vendor_minigbm_prop:s0
 
 # Graphics allocator
 vendor.gralloc.			u:object_r:vendor_gralloc_prop:s0
+
+# Input (tablet2multitouch)
+vendor.tablet2multitouch.	u:object_r:vendor_tablet2multitouch_prop:s0
+
+# Input (ts_vkeys)
+vendor.ts_vkeys.		u:object_r:vendor_ts_vkeys_prop:s0
 
 # Net
 vendor.net.			u:object_r:vendor_net_prop:s0 exact string
