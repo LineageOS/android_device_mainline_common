@@ -34,6 +34,24 @@
       "parentUuid": "5734985d_03f3d94a",
       "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3283fa71_ca440bc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-09-26T18:22:44Z",
+      "side": 1,
+      "message": "I faced it on official AOSP GMS GSIs. Didn\u0027t test on lineage or I don\u0027t remember.\n\nLet\u0027s add one more conditional `PRODUCT_IS_ATV`?",
+      "parentUuid": "a7cb74a5_5ddd2717",
+      "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
