@@ -52,6 +52,24 @@
       "parentUuid": "a7cb74a5_5ddd2717",
       "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3757e99_00e0f175",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-26T22:46:15Z",
+      "side": 1,
+      "message": "Yes, we have \"batteryless\" HAL on every AML device (ATV and mobile flavours) and there\u0027s no issue with GMS SetupWizard.",
+      "parentUuid": "3283fa71_ca440bc1",
+      "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
