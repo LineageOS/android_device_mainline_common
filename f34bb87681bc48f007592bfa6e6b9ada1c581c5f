@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5734985d_03f3d94a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-09-26T17:18:16Z",
+      "side": 1,
+      "message": "mmm no i\u0027d prefer keeping the cuttlefish one default, to keep consistency between lineage and aosp, and the most important thing is, GMS SetupWizard blocks if battery level is low/unknown, and it gives bad UX",
+      "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
