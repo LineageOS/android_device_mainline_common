@@ -132,7 +132,8 @@
 ### TARGET_HEALTH_HAL
 | Value | Directory | Description |
 |-------|-----------|-------------|
-| cuttlefish | health-hal_cuttlefish | For devices without battery |
+| batteryless | health-hal_batteryless | For Lineage devices without battery, reports no battery present |
+| cuttlefish | health-hal_cuttlefish | For devices without battery, reports fake battery stats |
 | default-aidl | health-hal_default-aidl | For devices with a battery accessible through /sys/class/power_supply |
 
 ## Input

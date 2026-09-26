@@ -99,7 +99,11 @@ endif
 
 # Health
 ifeq ($(TARGET_HAS_BATTERY),false)
+ifdef LINEAGE_BUILD
+TARGET_HEALTH_HAL ?= batteryless
+else
 TARGET_HEALTH_HAL ?= cuttlefish
+endif
 else
 TARGET_HEALTH_HAL ?= default-aidl
 endif
