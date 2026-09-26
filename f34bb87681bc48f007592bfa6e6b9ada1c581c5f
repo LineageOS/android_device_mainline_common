@@ -16,6 +16,24 @@
       "message": "mmm no i\u0027d prefer keeping the cuttlefish one default, to keep consistency between lineage and aosp, and the most important thing is, GMS SetupWizard blocks if battery level is low/unknown, and it gives bad UX",
       "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7cb74a5_5ddd2717",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-26T18:09:10Z",
+      "side": 1,
+      "message": "GMS does what? cc\u0027ing Bruno, cause I\u0027m pretty sure he uses this on aml devkits mobile builds.\n\nBut the cuttlefish one causes problems on atv, showing the battery stuff when it shouldn\u0027t. If a battery really isn\u0027t there, the health hal shouldn\u0027t report that there is one.",
+      "parentUuid": "5734985d_03f3d94a",
+      "revId": "f34bb87681bc48f007592bfa6e6b9ada1c581c5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
