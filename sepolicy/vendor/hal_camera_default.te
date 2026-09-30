@@ -1,0 +1,12 @@
+# hardware/mainline/common/interfaces/camera/mainline
+
+# vendor.camera.* configuration
+get_prop(hal_camera_default, vendor_camera_prop)
+
+# Camera hotplug: list and watch /dev for video nodes
+#FIXME: Too broad allow rule
+#allow hal_camera_default device:dir { r_dir_perms watch };
+
+# Device identity (USB IDs, "removable", names) of the video nodes
+#FIXME: Too broad allow rule
+#r_dir_file(hal_camera_default, sysfs)
