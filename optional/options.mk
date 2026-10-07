@@ -12,14 +12,6 @@ ifdef LINEAGE_BUILD
 SUPPORTS_INLINE_KERNEL_BUILDING := true
 endif # LINEAGE_BUILD
 
-ifeq ($(MAINLINE_COMMON_PREFER_EXT_MODULES),true)
-ifeq ($(wildcard device/mainline/common-ext/optional/options.mk),)
-$(warning Target device prefers using modules from mainline/common-ext repository, however it is not available. Features may not work as intended.)
-else
-MAINLINE_COMMON_USE_EXT_MODULES := true
-endif
-endif
-
 ##### Combinations #####
 
 TARGET_INITIAL_BRINGUP ?= false
@@ -139,10 +131,5 @@ endif
 
 # Wi-Fi
 TARGET_HOSTAPD_AND_WPA_SUPPLICANT_FORM ?= apex-aosp
-
-##### Inherits #####
-
-# Inherit from mainline/common-ext
--include device/mainline/common-ext/optional/options.mk
 
 endif # !MAINLINE_COMMON_OPTIONS_MK_INCLUDED

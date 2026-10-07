@@ -5,7 +5,6 @@
 
 USES_DEVICE_MAINLINE_COMMON := true
 
-# Include the fragments
 include $(MAINLINE_COMMON_PATH)/optional/*/board.mk
 
 # Boot parameters
@@ -78,6 +77,3 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 endif # !MAINLINE_COMMON_DISABLE_COMMON_BOARD_DEFS
-
-# Inherit from mainline/common-ext
--include device/mainline/common-ext/BoardConfigMainlineCommonExt.mk
