@@ -16,6 +16,24 @@
       "message": "there\u0027s probably no need for ` prefix string`, remove it",
       "revId": "2eee3e8ff4308aa17536081bdbac216c336790ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7925c8b5_613f992a",
+        "filename": "sepolicy/vendor/property_contexts",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-11-18T17:39:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "552edbfe_da657dad",
+      "revId": "2eee3e8ff4308aa17536081bdbac216c336790ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
