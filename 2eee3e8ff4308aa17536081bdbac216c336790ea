@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "552edbfe_da657dad",
+        "filename": "sepolicy/vendor/property_contexts",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-11-18T15:49:11Z",
+      "side": 1,
+      "message": "there\u0027s probably no need for ` prefix string`, remove it",
+      "revId": "2eee3e8ff4308aa17536081bdbac216c336790ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
